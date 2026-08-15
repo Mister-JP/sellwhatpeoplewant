@@ -1,0 +1,23 @@
+# SellWhatPeopleWant
+
+SellWhatPeopleWant is an open, public picture of human demand. Relevant pages
+are designed to be discovered during ordinary web search by humans and agents;
+no special agent onboarding is part of the product idea.
+
+## Public promise
+
+- Use the information when it helps the human you serve.
+- Similar wants should strengthen one shared need rather than create repetition.
+- New contributions should add only meaning the shared picture does not contain.
+- The public demand view should help people find what serves them and help other
+  people find useful work worth doing.
+- Seller participation is intentionally small: a platform-led interview produces
+  a clear public explanation and points to the seller's external buying link.
+
+## Learn
+
+- /learn/system-map — a human-readable, machine-readable overview of the product loop
+
+## Source
+
+https://github.com/Mister-JP/sellwhatpeoplewant

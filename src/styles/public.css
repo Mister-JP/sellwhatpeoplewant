@@ -1,0 +1,287 @@
+/**
+ * Carries the supplied brand language through the public site: pure white, deep
+ * navy, vivid human red, and the same geometric typographic character as the logo
+ * lockup. Restraint keeps the identity recognizable without repeating the mark.
+ */
+:root {
+  color: #071432;
+  background: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #071432;
+  --muted-ink: #536078;
+  --paper: #fff;
+  --surface: #fff;
+  --line: #e3e7ee;
+  --accent: #f53f44;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+.public-site {
+  min-height: 100vh;
+  background: var(--paper);
+}
+
+.skip-link {
+  position: fixed;
+  z-index: 20;
+  top: 0.5rem;
+  left: 0.5rem;
+  padding: 0.75rem 1rem;
+  color: white;
+  background: var(--ink);
+  transform: translateY(-150%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.site-header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 2rem;
+  align-items: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 1.25rem clamp(1rem, 4vw, 4rem);
+  border-bottom: 1px solid var(--line);
+}
+
+.wordmark {
+  display: flex;
+  gap: 0.65rem;
+  align-items: center;
+  text-decoration: none;
+}
+
+.wordmark img {
+  width: 3rem;
+  height: 3.1rem;
+  object-fit: contain;
+}
+
+.wordmark-text {
+  display: grid;
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.05;
+}
+
+.wordmark-text strong {
+  font-weight: 800;
+}
+
+.wordmark-text em {
+  color: var(--accent);
+  font-style: normal;
+}
+
+.site-header nav {
+  display: flex;
+  gap: clamp(1rem, 3vw, 2.5rem);
+}
+
+.site-header nav a,
+.source-link {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.site-header nav a:hover,
+.source-link:hover {
+  color: var(--accent);
+}
+
+.source-link {
+  justify-self: end;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid currentColor;
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.home-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(20rem, 0.55fr);
+  gap: clamp(3rem, 8vw, 9rem);
+  align-items: end;
+  max-width: 1400px;
+  min-height: 64vh;
+  margin: 0 auto;
+  padding: clamp(5rem, 11vw, 10rem) clamp(1rem, 5vw, 5rem);
+}
+
+.home-hero h1,
+.learn-introduction h1 {
+  margin: 0;
+  font-size: clamp(3.2rem, 7.8vw, 7.7rem);
+  font-weight: 700;
+  letter-spacing: -0.065em;
+  line-height: 0.94;
+}
+
+.hero-explanation {
+  padding-left: 1.4rem;
+  border-left: 3px solid var(--accent);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.text-link {
+  display: inline-block;
+  margin-top: 1.25rem;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.text-link:hover span {
+  display: inline-block;
+  transform: translateX(0.25rem);
+}
+
+.public-promise {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) minmax(14rem, 0.35fr);
+  gap: clamp(1.5rem, 5vw, 5rem);
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: clamp(3rem, 6vw, 6rem) clamp(1rem, 5vw, 5rem);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.promise-number {
+  margin: 0;
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.public-promise h2,
+.home-sections h2 {
+  margin: 0 0 1rem;
+  font-size: clamp(2rem, 4vw, 4rem);
+  font-weight: 700;
+  letter-spacing: -0.045em;
+  line-height: 1.05;
+}
+
+.public-promise p,
+.home-sections p {
+  line-height: 1.65;
+}
+
+.promise-aside {
+  align-self: end;
+  color: var(--muted-ink);
+  font-size: 0.9rem;
+}
+
+.home-sections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.home-sections article {
+  min-height: 26rem;
+  padding: clamp(2rem, 5vw, 4.5rem);
+  border-right: 1px solid var(--line);
+}
+
+.home-sections article:last-child {
+  border-right: 0;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2rem clamp(1rem, 4vw, 4rem);
+  border-top: 1px solid var(--line);
+  color: var(--muted-ink);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+@media (max-width: 820px) {
+  .site-header {
+    grid-template-columns: 1fr auto;
+  }
+
+  .site-header nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-content: space-between;
+    overflow-x: auto;
+  }
+
+  .source-link {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .home-hero,
+  .public-promise,
+  .home-sections {
+    grid-template-columns: 1fr;
+  }
+
+  .home-hero {
+    min-height: auto;
+  }
+
+  .home-hero h1 {
+    font-size: clamp(3.2rem, 15vw, 5.5rem);
+  }
+
+  .home-sections article {
+    min-height: 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+}
