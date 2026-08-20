@@ -14,11 +14,11 @@ describe('parseSystemMapDocument', () => {
     const systemMap = parseSystemMapDocument(candidateSystemMap);
 
     expect(systemMap.views.map((systemMapView) => systemMapView.id)).toEqual([
-      'whole-idea',
-      'discovery',
-      'demand',
-      'supply',
-      'human-value',
+      'whole-case',
+      'evidence',
+      'economics',
+      'correction',
+      'decision-value',
     ]);
   });
 

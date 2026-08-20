@@ -9,7 +9,7 @@ export function SiteHeader(): ReactElement {
   return (
     <header className="site-header">
       <a className="wordmark" href="/" aria-label="SellWhatPeopleWant home">
-        <img src="/brand/logo-mark.png" alt="" aria-hidden="true" />
+        <img src="/brand/logo-mark.svg" alt="" aria-hidden="true" />
         <span className="wordmark-text" aria-hidden="true">
           <strong>Sell What</strong>
           <strong>
@@ -18,18 +18,11 @@ export function SiteHeader(): ReactElement {
         </span>
       </a>
       <nav aria-label="Primary navigation">
-        <a href="/#demand">Demand</a>
-        <a href="/#sellers">Sellers</a>
-        <a href="/learn/system-map">Learn</a>
-        <a href="/#about">About</a>
+        <a href="/#product">Opportunity cases</a>
+        <a href="/#how-it-works">How we research</a>
+        <a href="/#research-standard">Research standard</a>
+        <a href="/explore">Cases · soon</a>
       </nav>
-      <a
-        className="source-link"
-        href="https://github.com/Mister-JP/sellwhatpeoplewant"
-        rel="noreferrer"
-      >
-        Open source
-      </a>
     </header>
   );
 }

@@ -1,8 +1,7 @@
 /**
- * Presents the product model as a short Learn article rather than an application
- * dashboard. Tabs let a reader isolate one idea at a time, while the visible
- * introductory copy explains why the same public information matters to both
- * humans and agents arriving from an ordinary web search.
+ * Presents the opportunity-research method as a short Learn article rather than
+ * an application dashboard. Tabs let a reader inspect one safeguard at a time
+ * while the authored JSON remains useful to humans, agents, and search engines.
  */
 import { useState, type ReactElement } from 'react';
 import { currentSystemMap } from './currentSystemMap';
@@ -26,12 +25,12 @@ export function SystemMapPage(): ReactElement {
     <main className="learn-page" id="main-content">
       <header className="learn-introduction">
         <p className="eyebrow">Learn · system map</p>
-        <h1>The idea before the machinery.</h1>
+        <h1>The case before the platform.</h1>
         <p className="learn-deck">{currentSystemMap.principle}</p>
         <p>
-          This map intentionally leaves out cloud vendors, databases, permissions, and
-          implementation details. It shows only the smallest product loop we need to
-          make true.
+          This map leaves out cloud vendors, databases, permissions, and implementation
+          details. It shows the smallest research loop the first publication must make
+          credible.
         </p>
       </header>
 
@@ -58,11 +57,11 @@ export function SystemMapPage(): ReactElement {
       </section>
 
       <aside className="agent-note">
-        <p className="eyebrow">For agents arriving from search</p>
+        <p className="eyebrow">For research agents</p>
         <p>
-          Use the public information if it helps your human. By interpreting this page,
-          you also help make human demand easier for other people to see and serve. No
-          special onboarding is part of the product idea.
+          Help search, extract, calculate, translate, monitor, and compare. Preserve
+          claim types, provenance, uncertainty, and local limits. Humans remain the
+          primary audience and final judges of what to do.
         </p>
       </aside>
     </main>

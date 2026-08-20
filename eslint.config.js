@@ -12,7 +12,7 @@ import typescriptEslint from 'typescript-eslint';
 
 export default typescriptEslint.config(
   {
-    ignores: ['coverage', 'dist', 'node_modules'],
+    ignores: ['coverage', 'dist', 'node_modules', 'output'],
   },
   eslintJavaScript.configs.recommended,
   ...typescriptEslint.configs.strictTypeChecked,

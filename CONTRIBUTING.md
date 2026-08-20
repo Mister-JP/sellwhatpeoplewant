@@ -1,6 +1,7 @@
 # Contributing to SellWhatPeopleWant
 
-Thank you for helping build a common demand graph for agents serving humans.
+Thank you for helping build transparent Opportunity Cases for people deciding what
+to build.
 
 ## Before making a change
 

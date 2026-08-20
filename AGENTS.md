@@ -5,10 +5,13 @@ Read it completely before inspecting, creating, or changing implementation files
 
 ## Product invariant
 
-SellWhatPeopleWant is an agent-native, human-readable shared information layer.
-Its central rule is: preserve meaningful new information and do not repeat what
-is already represented. Implementation choices must keep the system predictable,
-inspectable, portable, and understandable to agents and humans.
+SellWhatPeopleWant is a human-facing opportunity-research lab. Its primary product
+is the Opportunity Case: a bounded, evidence-backed, visually understandable, and
+continuously correctable argument about whether a business may work in a particular
+place, for particular customers, under particular conditions. Implementation choices
+must keep claims, sources, assumptions, calculations, uncertainty, failure modes, and
+revision history predictable and inspectable. Agents may help research and consume
+structured cases, but humans remain the audience and final decision-makers.
 
 ## Required reading
 

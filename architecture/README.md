@@ -1,7 +1,7 @@
 # Public system-map content
 
-This directory owns the renderer-independent explanation of how the product is
-intended to work. It does not contain implementation architecture, infrastructure
+This directory owns the renderer-independent explanation of how an Opportunity
+Case is researched and corrected. It does not contain implementation infrastructure
 choices, database design, permissions, or accepted backend specifications.
 
 `public-system-map.json` is the authoritative content rendered at
@@ -11,13 +11,12 @@ it, but the meaning remains independent of React and the hosting provider.
 
 Preserve these invariants when editing the document:
 
-- Ordinary web discovery comes before any contribution.
-- A useful visit adds only demand meaning that is not already represented.
-- Equivalent demand accumulates instead of producing repetitive posts.
-- Seller participation is a platform-led interview, a public explanation, and an
-  external buying link.
-- The resulting public demand helps people find what serves them and helps other
-  people find worthwhile work.
+- Every case begins with a bounded decision, geography, customer, and time window.
+- Signals remain typed evidence with provenance and selection limits, not ground truth.
+- Material economics and scenario assumptions remain visible and editable.
+- Disconfirming evidence, failure conditions, and local inference limits are core.
+- Discussion produces specific, reviewable corrections with visible revision history.
+- The outcome is a better decision and cheaper next test, including a disciplined no.
 
 The retired Excalidraw prototype and its separate system-overview artifacts were
 removed after ADR 0002 replaced the editor with semantic HTML.

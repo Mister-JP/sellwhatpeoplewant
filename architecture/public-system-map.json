@@ -1,156 +1,156 @@
 {
-  "title": "How SellWhatPeopleWant turns ordinary discovery into shared demand",
-  "principle": "Every useful visit can answer the visitor and make the shared picture of human demand a little clearer.",
+  "title": "How SellWhatPeopleWant turns a possible market gap into a testable decision",
+  "principle": "A useful Opportunity Case shows the strongest argument for an idea, the strongest argument against it, and the cheapest evidence that should come next.",
   "views": [
     {
-      "id": "whole-idea",
-      "label": "Whole idea",
-      "title": "Useful in the moment. More useful for everyone after.",
-      "summary": "Nobody has to begin a special workflow. A normal search reaches a useful public page, adds only missing demand meaning, and improves the shared view that builders can act on.",
+      "id": "whole-case",
+      "label": "Whole case",
+      "title": "From interesting idea to inspectable decision.",
+      "summary": "The product is not a feed of business ideas. It is a bounded, evidence-backed, continuously correctable case that connects market evidence to execution and risk.",
       "steps": [
         {
-          "title": "A search already happening",
-          "detail": "A human or their agent is already looking for something useful.",
+          "title": "Bounded question",
+          "detail": "Name the geography, time window, customer, proposed business, and decision the research must inform.",
           "tone": "sky"
         },
         {
-          "title": "A relevant public page",
-          "detail": "The open web returns an immediately useful answer from SellWhatPeopleWant.",
-          "tone": "sky"
-        },
-        {
-          "title": "Minimal demand signal",
-          "detail": "The visit contributes only meaning the shared picture does not yet contain.",
+          "title": "Triangulated evidence",
+          "detail": "Combine behaviour, prices, alternatives, regulation, interviews, operations, and local context with their limits visible.",
           "tone": "violet"
         },
         {
-          "title": "Shared demand",
-          "detail": "Equivalent needs accumulate together instead of becoming repeating posts.",
-          "tone": "violet"
-        },
-        {
-          "title": "Work worth doing",
-          "detail": "Builders can see what people genuinely want and choose to serve it.",
-          "tone": "coral"
-        }
-      ],
-      "connections": ["finds", "answers + learns", "joins", "reveals"]
-    },
-    {
-      "id": "discovery",
-      "label": "Discovery",
-      "title": "The agent does what it already does: searches the web.",
-      "summary": "SellWhatPeopleWant competes to be the most relevant result, not a destination agents must learn before helping their humans.",
-      "steps": [
-        {
-          "title": "Human need",
-          "detail": "The person asks a question, describes a want, or searches directly.",
-          "tone": "sky"
-        },
-        {
-          "title": "Ordinary web search",
-          "detail": "Their agent or browser looks across the open web as usual.",
-          "tone": "sky"
-        },
-        {
-          "title": "Useful demand page",
-          "detail": "A focused URL answers this exact topic in human-readable and machine-readable form.",
+          "title": "Editable model",
+          "detail": "Expose costs, prices, capital, timing, assumptions, scenarios, and the conditions that break the business.",
           "tone": "mint"
         },
         {
-          "title": "Helpful answer",
-          "detail": "The visitor leaves with better information; no product onboarding is required.",
-          "tone": "coral"
-        }
-      ],
-      "connections": ["prompts", "discovers", "returns"]
-    },
-    {
-      "id": "demand",
-      "label": "Shared demand",
-      "title": "Represent the need once; accumulate evidence without repetition.",
-      "summary": "The product is a shared current picture of what people want, not a feed filled with near-identical requests.",
-      "steps": [
-        {
-          "title": "What is already known",
-          "detail": "The relevant page exposes the current shared understanding first.",
-          "tone": "mint"
-        },
-        {
-          "title": "Only the missing meaning",
-          "detail": "A new visit adds a useful distinction or strengthens an existing need.",
-          "tone": "violet"
-        },
-        {
-          "title": "One canonical need",
-          "detail": "Equivalent demand gathers in one place while real differences stay visible.",
-          "tone": "violet"
-        },
-        {
-          "title": "Public demand view",
-          "detail": "Anyone can inspect the updated picture and use the data freely.",
-          "tone": "coral"
-        }
-      ],
-      "connections": ["compare", "merge", "publish"]
-    },
-    {
-      "id": "supply",
-      "label": "Supply",
-      "title": "Supply stays deliberately small: an interview and a link.",
-      "summary": "The platform learns enough to explain a product against known demand. Selling and checkout remain with the seller.",
-      "steps": [
-        {
-          "title": "Seller and product",
-          "detail": "A seller brings something that may serve demand already visible on the platform.",
+          "title": "Failure case",
+          "detail": "Seek contradictions, fragile assumptions, ruin scenarios, and evidence that would reverse the conclusion.",
           "tone": "sand"
         },
         {
-          "title": "Platform-led interview",
-          "detail": "The interview starts with existing knowledge and asks only useful unanswered questions.",
-          "tone": "sand"
-        },
-        {
-          "title": "Clear public explanation",
-          "detail": "The result says what the product is and which demand it may serve.",
-          "tone": "mint"
-        },
-        {
-          "title": "External buying link",
-          "detail": "Interested people continue to the seller's own place to buy.",
+          "title": "Cheapest next test",
+          "detail": "Give the reader the smallest lawful and ethical experiment that most reduces uncertainty.",
           "tone": "coral"
         }
       ],
-      "connections": ["explains once", "becomes", "points to"]
+      "connections": ["frames", "models", "challenges", "makes testable"]
     },
     {
-      "id": "human-value",
-      "label": "Human value",
-      "title": "Demand becomes a map of potential human purpose.",
-      "summary": "The system helps one person find what could serve them and helps another person discover something worthwhile to provide.",
+      "id": "evidence",
+      "label": "Evidence",
+      "title": "Signals become useful when their limits remain visible.",
+      "summary": "Statements, reviews, transactions, searches, shortages, and interviews may inform a case, but none becomes objective market truth by itself.",
       "steps": [
         {
-          "title": "Many real wants",
-          "detail": "Small demand signals form a more credible picture together.",
+          "title": "Observed source",
+          "detail": "Capture what was actually observed, where, when, by whom, and under which selection conditions.",
+          "tone": "sky"
+        },
+        {
+          "title": "Typed claim",
+          "detail": "Separate fact, sourced estimate, calculation, interpretation, hypothesis, and recommendation.",
           "tone": "violet"
         },
         {
-          "title": "Visible unmet need",
-          "detail": "Gaps become understandable without reading thousands of repeated requests.",
-          "tone": "mint"
-        },
-        {
-          "title": "A builder finds purpose",
-          "detail": "Someone can choose work because people have shown that it matters.",
+          "title": "Competing explanation",
+          "detail": "Look for alternative causes, contradictory cases, missing populations, conflicts, and jurisdictional limits.",
           "tone": "sand"
         },
         {
-          "title": "A human is better served",
-          "detail": "Useful supply reaches the people whose demand made the opportunity visible.",
+          "title": "Inspectable conclusion",
+          "detail": "State what the evidence supports, what it cannot establish, and what new observation would discriminate.",
           "tone": "coral"
         }
       ],
-      "connections": ["clarify", "inspires", "serves"]
+      "connections": ["classifies", "challenges", "bounds"]
+    },
+    {
+      "id": "economics",
+      "label": "Economics",
+      "title": "Readers can change the assumptions doing the work.",
+      "summary": "One forecast hides uncertainty. An Opportunity Case makes the operating model and scenario range editable.",
+      "steps": [
+        {
+          "title": "Operational inputs",
+          "detail": "Show price, volume, landed cost, labor, acquisition, working capital, financing, delay, loss, and cash cycle.",
+          "tone": "sky"
+        },
+        {
+          "title": "Scenario range",
+          "detail": "Calculate base, upside, downside, and break-the-business outcomes without manufacturing precision.",
+          "tone": "mint"
+        },
+        {
+          "title": "Fragile assumptions",
+          "detail": "Identify which variables control the conclusion and how much room exists before the thesis fails.",
+          "tone": "sand"
+        },
+        {
+          "title": "Reproducible decision",
+          "detail": "Let the reader inspect formulas, change inputs, and understand why a conclusion moves.",
+          "tone": "coral"
+        }
+      ],
+      "connections": ["calculates", "stress-tests", "explains"]
+    },
+    {
+      "id": "correction",
+      "label": "Correction",
+      "title": "Discussion improves a claim, not a popularity score.",
+      "summary": "Participation belongs in the product only when it makes a claim, source, assumption, scenario, or local inference more accurate.",
+      "steps": [
+        {
+          "title": "Specific challenge",
+          "detail": "A contributor points to a claim, source, assumption, calculation, scenario, or unresolved question.",
+          "tone": "sky"
+        },
+        {
+          "title": "Supporting evidence",
+          "detail": "The correction brings provenance, local knowledge, contradiction, or a real-world test outcome.",
+          "tone": "violet"
+        },
+        {
+          "title": "Research review",
+          "detail": "Researchers evaluate relevance, conflicts, selection effects, and whether the case should change.",
+          "tone": "sand"
+        },
+        {
+          "title": "Visible revision",
+          "detail": "The public case updates without erasing what changed, why it changed, or what remains disputed.",
+          "tone": "coral"
+        }
+      ],
+      "connections": ["substantiates", "evaluates", "revises"]
+    },
+    {
+      "id": "decision-value",
+      "label": "Decision value",
+      "title": "The outcome is a better decision, including a disciplined no.",
+      "summary": "A case succeeds when it reduces uncertainty or prevents waste—not when it merely attracts attention or produces a positive conclusion.",
+      "steps": [
+        {
+          "title": "Understand the opportunity",
+          "detail": "The reader can see the customer, gap, alternatives, economics, execution conditions, and decisive uncertainty.",
+          "tone": "sky"
+        },
+        {
+          "title": "Compare the downside",
+          "detail": "Failure modes, recoverability, conflicts, and transfer limits are as legible as the upside.",
+          "tone": "sand"
+        },
+        {
+          "title": "Choose the next action",
+          "detail": "Reject, adapt, investigate further, or run the smallest useful real-world test.",
+          "tone": "mint"
+        },
+        {
+          "title": "Learn from reality",
+          "detail": "Outcomes return to the case so later readers can compare what happened with what the model assumed.",
+          "tone": "coral"
+        }
+      ],
+      "connections": ["stress-tests", "decides", "updates"]
     }
   ]
 }

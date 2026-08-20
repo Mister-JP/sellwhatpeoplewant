@@ -1,17 +1,25 @@
 # SellWhatPeopleWant
 
-The common demand graph for agents serving humans.
+Transparent opportunity research for people deciding what to build.
 
 This is the public repository for the SellWhatPeopleWant product. Technology,
 data architecture, and deployment decisions remain deliberately open while the
-smallest public product loop is made clear.
+first Opportunity Case and its research standard are made credible.
 
-## Public product story
+## First-stage public product
 
-The first implementation is a public website shell and a focused system map under
-`/learn/system-map`. The map is semantic, responsive HTML: visitors can read and
-switch views, but there are no canvas tools, repository controls, or download
-actions on the public surface.
+The first implementation is a combined home and About page. It defines the human
+reader, Opportunity Case, research loop, evidence standard, conflict boundary,
+local-inference rule, and decision-value North Star. A scroll-driven Three.js
+evidence world carries the opening research chapter; the retained MIT-licensed
+GPU-IO fluid current carries the deeper trust chapter.
+
+The case library at `/explore` remains an explicit in-research notice. It shows no
+representative or invented opportunity analysis before the first publication can
+meet the stated standard.
+
+The explanatory system map remains available at `/learn/system-map`. Both public
+surfaces are semantic, responsive HTML with no canvas or authoring controls.
 
 Requirements:
 
@@ -25,23 +33,32 @@ pnpm install
 pnpm dev
 ```
 
-Open `http://localhost:5173` for the home page and
-`http://localhost:5173/learn/system-map` for the product explanation. The public
-story lives in `architecture/public-system-map.json`, keeping its meaning
+Open `http://localhost:5173` for the home/About page,
+`http://localhost:5173/explore` for the case-library status, and
+`http://localhost:5173/learn/system-map` for the research-method explanation. The
+method story lives in `architecture/public-system-map.json`, keeping its meaning
 independent of React and any drawing library.
 
 ## Current boundaries
 
 - `architecture/public-system-map.json` owns the public product explanation.
 - `src/learn/system-map` validates and renders that explanation as semantic HTML.
+- `src/explore` owns the deliberately empty case-library boundary.
 - `src/site` owns the landing page and shared public navigation.
 - `public/brand` owns the supplied logo, favicon, and touch icon.
+- `src/site/art/research-world` owns the illustrative, scroll-driven Three.js world.
+- `src/site/art` owns the independently disposable visual renderers.
 - `worker` and `scripts/prepare-sites-build.mjs` adapt the static Vite build to
   OpenAI Sites without introducing hosting concepts into product components.
 
 The previous Excalidraw experiment was removed after ADR 0002 superseded it. The
-public site contains no canvas runtime, editing controls, repository persistence
-endpoint, or diagram-scene artifact.
+public system map contains no canvas runtime, editing controls, repository
+persistence endpoint, or diagram-scene artifact. The homepage canvas is decorative
+art and does not alter that semantic system-map boundary.
+
+See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for artwork attribution and
+[docs/homepage-content-inventory.md](docs/homepage-content-inventory.md) for the
+research-grounded content inventory and outline.
 
 Run the complete local quality gate before proposing a change:
 
