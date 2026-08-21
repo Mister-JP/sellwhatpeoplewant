@@ -1,23 +1,30 @@
 # SellWhatPeopleWant
 
-SellWhatPeopleWant is a human-facing opportunity-research lab. Its primary product
-is the Opportunity Case: a bounded, evidence-backed, visually understandable, and
-continuously correctable argument about whether a business may work in a particular
-place, for particular customers, under particular conditions.
+SellWhatPeopleWant publishes business research for ordinary people. Its primary
+product is the Opportunity Case: a clear, evidence-backed, continuously correctable
+account of whether a business may work in a particular place, for particular people,
+under particular conditions.
 
-The current site defines the research standard. The first real Opportunity Case,
-open participation features, execution support, and business simulator are not
-implemented yet.
+Each case is both a decision aid and a learning path. It explains the central idea
+in familiar language first, then lets a reader follow important claims into sources,
+concepts into their meaning and history, and calculations into the relationships and
+assumptions they represent. The first real Opportunity Case, open participation
+features, execution support, and business simulator are not implemented yet.
 
 ## Public promise
 
-- Make credible business opportunities understandable and testable by ordinary people.
+- Start from questions people naturally ask about needs, choices, money, work, time,
+  risk, and trade-offs; do not make readers learn a private methodology vocabulary.
+- Show how the main question was formed and which other questions remain possible.
 - Show the strongest case, the evidence beneath it, the assumptions doing the work,
-  the strongest failure case, and the observations that would change the conclusion.
-- Separate observed fact, sourced estimate, calculation, interpretation, hypothesis,
-  and recommendation.
-- Keep claim-level provenance, uncertainty, selection limits, conflicts, local scope,
-  editable economics, and revision history inspectable.
+  the strongest failure case, and what would change the conclusion.
+- Explain why a source deserves weight and what it cannot establish.
+- Explain the human meaning and purpose of a calculation, then expose its exact
+  inputs, formula, alternatives, and sensitivity.
+- Offer deeper paths into the history, use, limits, and disagreements around concepts
+  without making that depth a prerequisite for understanding the case.
+- Keep uncertainty, selection limits, conflicts, local scope, and revision history
+  inspectable in direct language.
 - Identify the smallest lawful and ethical action that most reduces uncertainty.
 - Treat a disciplined rejection or negative conclusion as a valuable product outcome.
 - Let agents help search, extract, calculate, translate, monitor, and compare while
@@ -25,9 +32,10 @@ implemented yet.
 
 ## Learn
 
-- / — home and About page defining the Opportunity Case and North Star
+- / — home and About page defining the Opportunity Case and learning promise
+- /methodology — a plain-language worked example of how we know
 - /explore — case-library status while the first publication is in research
-- /learn/system-map — human-readable and machine-readable research-method overview
+- /learn/system-map — human-readable and machine-readable research-and-learning map
 
 ## Source
 

@@ -16,6 +16,7 @@ describe('parseSystemMapDocument', () => {
     expect(systemMap.views.map((systemMapView) => systemMapView.id)).toEqual([
       'whole-case',
       'evidence',
+      'concepts',
       'economics',
       'correction',
       'decision-value',

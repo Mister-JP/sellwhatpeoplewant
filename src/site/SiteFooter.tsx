@@ -6,14 +6,15 @@ export function SiteFooter(): ReactElement {
     <footer className="site-footer">
       <div>
         <strong>SellWhatPeopleWant</strong>
-        <p>Transparent opportunity research for people deciding what to build.</p>
+        <p>Business research explained from the ground up.</p>
       </div>
       <nav aria-label="Footer navigation">
         <a href="/#about">About</a>
-        <a href="/learn/system-map">System logic</a>
+        <a href="/methodology">How we know</a>
+        <a href="/learn/system-map">How the site works</a>
         <a href="https://github.com/Mister-JP/sellwhatpeoplewant">GitHub</a>
       </nav>
-      <p className="footer-status">Stage 01 · publish exceptional cases</p>
+      <p className="footer-status">First case · in research</p>
     </footer>
   );
 }

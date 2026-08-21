@@ -1,5 +1,5 @@
 /**
- * States the lab's trust mechanisms and epistemic limits over the retained GPU-IO
+ * States the lab's trust mechanisms and knowledge limits over the retained GPU-IO
  * chapter. The canvas remains decorative; every promise and limitation is present
  * in semantic HTML for readers, crawlers, and assistive technology.
  */
@@ -30,12 +30,12 @@ export function SharedStateChapter(): ReactElement {
         aria-labelledby="standard-title"
       >
         <header>
-          <p className="section-index">The research standard</p>
-          <h2 id="standard-title">Trust comes from what remains inspectable.</h2>
+          <p className="section-index">How we know</p>
+          <h2 id="standard-title">The answer is only the first layer.</h2>
           <p>
-            The clear story comes first. Beneath it, readers can inspect the evidence,
-            methods, formulas, uncertainty, conflicts, local limits, and revision
-            history that produced the judgment.
+            The clear story comes first. From there, every reader gets a choice: stop
+            when the idea makes sense, or go deeper into the concepts, evidence,
+            calculations, disagreements, and history that shaped our present view.
           </p>
         </header>
         <div className="trust-principles">
@@ -50,19 +50,20 @@ export function SharedStateChapter(): ReactElement {
       </section>
 
       <section className="evidence-boundary" aria-labelledby="boundary-title">
-        <p className="section-index">What evidence can—and cannot—establish</p>
-        <h2 id="boundary-title">No signal becomes demand by itself.</h2>
+        <p className="section-index">Words, actions, and incentives</p>
+        <h2 id="boundary-title">What people do matters. It is not a mind reader.</h2>
         <div>
           <p>
-            Demand changes with price, trust, availability, place, timing, and
-            alternatives. Reviews, searches, interviews, purchases, shortages,
-            procurement, and trade flows can each add evidence; none can decide a case
-            alone.
+            Business is one place where human needs and constraints become visible in
+            action: people pay, switch, wait, repair, improvise, or do without. Those
+            actions often teach us more than opinions alone because something real was
+            at stake.
           </p>
           <p>
-            Even a verified purchase proves only that one transaction occurred. It does
-            not establish representative demand, truthful reporting, long-term
-            performance, or willingness to repurchase at today’s price.
+            But a purchase is not a confession of someone’s deepest values. Price,
+            income, habit, convenience, available alternatives, and other people’s
+            choices all matter. Words are evidence. Actions are evidence. Neither tells
+            the whole human story by itself.
           </p>
         </div>
       </section>
@@ -70,13 +71,13 @@ export function SharedStateChapter(): ReactElement {
       <div className="decision-boundaries" aria-label="Decision safeguards">
         <section className="conclusion-boundary" aria-labelledby="conclusion-title">
           <div>
-            <p className="section-index">Argument, not advertisement</p>
-            <h2 id="conclusion-title">The honest answer may be no.</h2>
+            <p className="section-index">Useful, not promotional</p>
+            <h2 id="conclusion-title">“No” can be a valuable answer.</h2>
           </div>
           <p>
-            A case may end “promising,” “only under these conditions,” “not presently
-            investable,” or “insufficient evidence.” These are current research
-            judgments—not forecasts, guarantees, or investment advice.
+            A case may find a promising path, a path that works only under narrow
+            conditions, too little evidence, or a reason to stop. Our job is to make the
+            present understanding clear—not to sell excitement or certainty.
           </p>
         </section>
 
@@ -85,41 +86,39 @@ export function SharedStateChapter(): ReactElement {
           aria-labelledby="participation-title"
         >
           <div>
-            <p className="section-index">Correctable in public</p>
-            <h2 id="participation-title">
-              Evidence can change the case. Popularity cannot.
-            </h2>
+            <p className="section-index">Open to correction</p>
+            <h2 id="participation-title">Show us what we missed.</h2>
           </div>
           <p>
-            Readers can challenge a source, correct a price, question a formula, add
-            local context, submit contrary evidence, or report a lawful test. Discussion
-            belongs beside the claim it can improve—not in a generic comment feed.
+            A reader may find a better source, a changed price, a mistaken assumption, a
+            missing local fact, or a stronger explanation. The correction belongs beside
+            the part it changes, with the old reasoning still visible.
           </p>
         </section>
 
         <section className="local-boundary" aria-labelledby="local-title">
           <div>
-            <p className="section-index">Global comparison · local conclusion</p>
-            <h2 id="local-title">An analogue is not a local fact.</h2>
+            <p className="section-index">Place and time matter</p>
+            <h2 id="local-title">What worked elsewhere may not work here.</h2>
           </div>
           <p>
-            Every case names the geography and time window its evidence supports.
-            Prices, laws, labor, logistics, financing, infrastructure, and customer
-            behaviour must survive local scrutiny.
+            Prices, laws, labor, logistics, financing, infrastructure, and habits can
+            change across a street or across a year. A comparison can help us ask a
+            question; it cannot quietly become a local fact.
           </p>
         </section>
 
         <section className="current-stage" aria-labelledby="stage-title">
           <div>
             <p className="section-index">Current stage</p>
-            <h2 id="stage-title">The standard comes before the library.</h2>
+            <h2 id="stage-title">The first case is still being built.</h2>
           </div>
           <p>
-            The first cases are still being researched. We will publish when readers can
-            trace material claims, reproduce central calculations, inspect the strongest
-            counter-case, and understand the next useful test.
+            We will publish when an ordinary reader can understand the question, follow
+            the important ideas and sources, see what the numbers mean, examine the
+            strongest disagreement, and know what should be tested next.
           </p>
-          <a href="/explore">View the case-library status →</a>
+          <a href="/explore">Follow the first case →</a>
         </section>
       </div>
 

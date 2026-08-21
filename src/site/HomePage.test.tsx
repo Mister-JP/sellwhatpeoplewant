@@ -1,5 +1,5 @@
 /**
- * Protects the homepage's tangible product explanation and epistemic boundaries.
+ * Protects the homepage's tangible product explanation and knowledge limits.
  * Browser QA covers decorative canvases; this suite proves that the same meaning
  * remains complete without WebGL, screenshots, or generated hero artwork.
  */
@@ -13,26 +13,30 @@ describe('HomePage', () => {
 
     expect(
       screen.getByRole('heading', {
-        name: /we research business ideas/i,
+        name: /understand a business idea from the ground up/i,
       }),
     ).toBeInTheDocument();
     expect(screen.getByText(/not a market claim/i)).toBeInTheDocument();
-    expect(screen.getByText(/we do not sell certainty/i)).toBeInTheDocument();
     expect(
-      screen.getByText(/trace material claims to their origin/i),
+      screen.getByText(/should not need an economics degree/i),
+    ).toBeInTheDocument();
+    expect(screen.getByText(/why those ideas exist/i)).toBeInTheDocument();
+    expect(
+      screen.getByRole('heading', { name: /ideas with a history/i }),
+    ).toBeInTheDocument();
+    expect(screen.getByText(/numbers become sentences again/i)).toBeInTheDocument();
+    expect(
+      screen.getByRole('heading', { name: /not a mind reader/i }),
     ).toBeInTheDocument();
     expect(
-      screen.getByRole('heading', { name: /demand evidence/i }),
-    ).toBeInTheDocument();
-    expect(screen.getByText(/observed facts, sourced estimates/i)).toBeInTheDocument();
-    expect(
-      screen.getByRole('heading', { name: /no signal becomes demand by itself/i }),
+      screen.getByRole('heading', { name: /no.*valuable answer/i }),
     ).toBeInTheDocument();
     expect(
-      screen.getByRole('heading', { name: /honest answer may be no/i }),
+      screen.getByRole('heading', { name: /first case is still being built/i }),
     ).toBeInTheDocument();
-    expect(
-      screen.getByRole('heading', { name: /standard comes before the library/i }),
-    ).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /see how we know/i })).toHaveAttribute(
+      'href',
+      '/methodology',
+    );
   });
 });

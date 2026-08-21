@@ -5,6 +5,7 @@
  */
 import type { ReactElement } from 'react';
 import { ExplorePage } from '../explore/ExplorePage';
+import { MethodologyPage } from '../learn/methodology/MethodologyPage';
 import { SystemMapPage } from '../learn/system-map/SystemMapPage';
 import { HomePage } from '../site/HomePage';
 import { SiteFooter } from '../site/SiteFooter';
@@ -17,6 +18,10 @@ function CurrentPage(): ReactElement {
 
   if (window.location.pathname === '/learn/system-map') {
     return <SystemMapPage />;
+  }
+
+  if (window.location.pathname === '/methodology') {
+    return <MethodologyPage />;
   }
 
   return <HomePage />;

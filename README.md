@@ -1,18 +1,26 @@
 # SellWhatPeopleWant
 
-Transparent opportunity research for people deciding what to build.
+Business research that an ordinary reader can understand, question, and verify.
 
-This is the public repository for the SellWhatPeopleWant product. Technology,
-data architecture, and deployment decisions remain deliberately open while the
-first Opportunity Case and its research standard are made credible.
+This is the public repository for SellWhatPeopleWant. We investigate possible
+businesses and publish the reasoning as Opportunity Cases: clear accounts of who
+might need something, what people do now, how the business could work, what the
+numbers mean, what could defeat the idea, and what evidence should come next.
+
+The product is meant for people, not only economists, business-school graduates, or
+professional researchers. A reader gets the understandable story first and can then
+follow any important claim into its source, any unfamiliar idea into its meaning and
+history, and any calculation into its assumptions. The goal is not only to deliver a
+conclusion. It is to leave the reader better able to ask and investigate the next
+question.
 
 ## First-stage public product
 
-The first implementation is a combined home and About page. It defines the human
-reader, Opportunity Case, research loop, evidence standard, conflict boundary,
-local-inference rule, and decision-value North Star. A scroll-driven Three.js
-evidence world carries the opening research chapter; the retained MIT-licensed
-GPU-IO fluid current carries the deeper trust chapter.
+The first implementation is a combined home and About page plus a plain-language
+account of how the research works. It defines the human reader, Opportunity Case,
+learning promise, evidence boundaries, conflicts, local limits, and decision-value
+North Star. Editorial visual systems support the story without carrying claims that
+are absent from the text.
 
 The case library at `/explore` remains an explicit in-research notice. It shows no
 representative or invented opportunity analysis before the first publication can
@@ -34,15 +42,18 @@ pnpm dev
 ```
 
 Open `http://localhost:5173` for the home/About page,
+`http://localhost:5173/methodology` for a worked explanation of how we know,
 `http://localhost:5173/explore` for the case-library status, and
-`http://localhost:5173/learn/system-map` for the research-method explanation. The
-method story lives in `architecture/public-system-map.json`, keeping its meaning
-independent of React and any drawing library.
+`http://localhost:5173/learn/system-map` for the research-and-learning map. The map
+lives in `architecture/public-system-map.json`, keeping its meaning independent of
+React and any drawing library.
 
 ## Current boundaries
 
 - `architecture/public-system-map.json` owns the public product explanation.
 - `src/learn/system-map` validates and renders that explanation as semantic HTML.
+- `src/learn/methodology` shows the research approach through ordinary questions and
+  a concrete worked example.
 - `src/explore` owns the deliberately empty case-library boundary.
 - `src/site` owns the landing page and shared public navigation.
 - `public/brand` owns the supplied logo, favicon, and touch icon.

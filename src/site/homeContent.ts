@@ -1,103 +1,108 @@
-/** Stable public vocabulary for explaining what an Opportunity Case contains. */
+/** Plain-language promises for what a public case must help a reader understand. */
 export const caseAnatomy = [
   {
-    title: 'The proposition',
+    title: 'The question',
     detail:
-      'What could be built, imported, distributed, repaired, or provided, for whom, and in which market.',
+      'What are we trying to understand, for which people, in which place, over what time, and before which real decision?',
   },
   {
-    title: 'The observed gap',
+    title: 'What people do',
     detail:
-      'What appears unavailable, overpriced, slow, unreliable, inconvenient, or poorly adapted compared with real alternatives.',
+      'What do people buy, repair, replace, wait for, work around, or go without—and what pressures or limits shape those actions?',
   },
   {
-    title: 'Demand evidence',
+    title: 'What already exists',
     detail:
-      'Who experiences the problem, who may pay, and what purchases, shortages, substitutions, searches, or interviews actually show.',
+      'Which products, services, habits, and informal solutions already help, and why might a new offer be better or worse?',
   },
   {
-    title: 'Market structure',
+    title: 'How it would work',
     detail:
-      'Competitors, channels, margins, regulation, local institutions, and the forces that could preserve or erase the gap.',
+      'Who would make, move, sell, repair, finance, and permit it—and where could the real-world path break?',
   },
   {
-    title: 'The execution path',
+    title: 'The money, in words',
     detail:
-      'Suppliers, production or import steps, licenses, people, timing, dependencies, and practical bottlenecks.',
+      'What each number represents, where it came from, what it leaves out, and what would happen if an assumption changed.',
   },
   {
-    title: 'Unit economics',
+    title: 'Ideas with a history',
     detail:
-      'Landed cost, price, working capital, financing, labor, acquisition, cash cycle, break-even, and editable scenarios.',
+      'Why people developed concepts such as incentives, cash flow, and break-even; how they help; and where they can mislead.',
   },
   {
-    title: 'The failure case',
+    title: 'The other explanation',
     detail:
-      'Contrary evidence, competing explanations, fragile assumptions, ruin conditions, and what remains recoverable.',
+      'What else could produce the same evidence, who disagrees, what we may have missed, and what could make the idea fail.',
   },
   {
-    title: 'The next experiment',
+    title: 'The next small test',
     detail:
-      'The smallest lawful and ethical action that reduces decisive uncertainty before inventory, debt, or hiring.',
+      'The smallest lawful and respectful action that can teach us something important before inventory, debt, or hiring.',
   },
   {
-    title: 'The evidence trail',
+    title: 'The path behind it',
     detail:
-      'Claim-level sources, dates, calculations, conflicts, uncertainty, local limits, corrections, and revision history.',
+      'The exact sources, dates, reasoning, open questions, corrections, and deeper reading behind each important statement.',
   },
 ] as const;
 
 export const researchSteps = [
   [
-    'Bound',
-    'Which decision are we informing?',
-    'Name the market, customer, time window, proposition, and commitment at stake before gathering evidence.',
+    'Ask',
+    'What are we actually trying to decide?',
+    'Turn a broad idea into a question about named people, a real place, a period of time, and a choice someone may have to make.',
   ],
   [
-    'Triangulate',
-    'What is happening beyond what people say?',
-    'Compare behaviour, prices, purchases, shortages, substitutes, trade, procurement, interviews, and local conditions.',
+    'Observe',
+    'What are people saying and doing?',
+    'Compare words with purchases, prices, delays, workarounds, alternatives, and local conditions without pretending any one signal reveals the whole truth.',
   ],
   [
-    'Model',
-    'What must be true for the business to work?',
-    'Connect supply, regulation, labor, capital, timing, price, and volume in an editable operating model.',
+    'Understand',
+    'Which ideas help us make sense of it?',
+    'Explain important concepts from their human purpose outward: why the idea was needed, how it developed, how it is used, and where people still disagree.',
   ],
   [
-    'Attack',
-    'What is the strongest case against it?',
-    'Seek hidden incumbents, selection effects, contrary evidence, fragile assumptions, and conditions for ruin.',
+    'Calculate',
+    'What do the numbers mean in ordinary language?',
+    'Name every input and unit, show the arithmetic, then translate the result back into a sentence a reader can question.',
   ],
   [
-    'Test',
-    'What is the cheapest useful next step?',
-    'Test the uncertainty most likely to reverse the decision before making a larger commitment.',
+    'Challenge',
+    'What else could be true?',
+    'Look for contrary evidence, hidden constraints, missing voices, and the strongest explanation that does not support the idea.',
+  ],
+  [
+    'Try',
+    'What is the smallest honest next step?',
+    'Test the uncertainty most likely to change the decision before making a larger or harder-to-reverse commitment.',
   ],
 ] as const;
 
 export const trustPrinciples = [
   [
-    'Claims keep their type',
-    'Observed facts, sourced estimates, calculations, interpretations, hypotheses, and recommendations never collapse into one voice.',
+    'The clear explanation comes first',
+    'A reader should understand the question and present answer without learning our internal process or specialist vocabulary.',
   ],
   [
-    'Numbers show their work',
-    'Material calculations expose inputs, formulas, dates, currencies, jurisdictions, and ranges that readers can change.',
+    'Important words open up',
+    'A concept can lead to its everyday meaning, the human problem it answered, its history, formal use, limits, disagreements, and original sources.',
   ],
   [
-    'The opposing case remains visible',
-    'Each publication seeks evidence that weakens its thesis and states what observation would change the conclusion.',
+    'Sources open at the point of use',
+    'An important statement leads to the exact record behind it, who produced it, when, for what purpose, and why it can support this use.',
   ],
   [
-    'Local evidence stays local',
-    'Evidence from another place remains an analogue until its transfer is justified.',
+    'Numbers become sentences again',
+    'A formula never gets the last word. We explain what relationship it represents, what must be assumed, and what changing an input would mean.',
   ],
   [
-    'Corrections do not erase history',
-    'Each case preserves what changed, why it changed, and which source, calculation, or observation caused the revision.',
+    'Disagreement has a proper home',
+    'The strongest contrary explanation, unresolved questions, and evidence that would change our mind stay beside the conclusion.',
   ],
   [
-    'Commercial influence stays separate',
-    'Payment cannot purchase a favorable conclusion, ranking, confidence label, or omission of material risk.',
+    'Corrections remain part of the story',
+    'When understanding changes, readers can see what changed, why it changed, and which new fact or argument caused the revision.',
   ],
 ] as const;

@@ -1,0 +1,729 @@
+{
+  "schemaVersion": "0.3.0",
+  "id": "OC-US-WCAG-DISCOVERY",
+  "version": "0.3.0",
+  "title": "Public-entity accessibility discovery before service design",
+  "subtitle": "A bounded example showing what the source establishes, what it does not, and what to learn next",
+  "status": "candidate",
+  "issuedAt": "2026-08-21T12:00:00Z",
+  "evidenceCutoff": "2026-08-20",
+  "readerSummary": {
+    "question": "Does an approaching accessibility deadline prove that a new compliance service should be built?",
+    "shortAnswer": "No. The official deadline is real context, but it does not show which problems buyers still have, how they solve them now, or whether they would pay for a new service.",
+    "whyItMatters": "Treating a rule as automatic proof of demand can lead to building before the actual problem is understood.",
+    "whatIsKnown": [
+      "The current official page gives different compliance dates according to entity size and type."
+    ],
+    "whatIsNotKnown": [
+      "Which accessibility and procurement problems remain poorly served.",
+      "Whether the affected organizations would buy a new service rather than use staff or existing providers."
+    ],
+    "nextStep": "Choose one state and one kind of public entity, then learn from buyers, operators, and affected users before designing the service.",
+    "conceptIds": ["CONCEPT-DEADLINE-AND-DEMAND"]
+  },
+  "mandate": {
+    "commissioner": "SellWhatPeopleWant public learning example",
+    "decisionOwnerActorId": "ACT-OWNER",
+    "question": "Should research proceed before designing an accessibility compliance service?",
+    "intendedUse": "Choose the cheapest lawful next learning action.",
+    "excludedUses": ["Legal advice", "A claim that any entity or product conforms"],
+    "proportionality": "P2",
+    "ethicsAndConflicts": [
+      "Do not recruit affected users without accessible consent and compensation."
+    ]
+  },
+  "scope": {
+    "jurisdictions": ["United States federal Title II context"],
+    "populations": ["One future state and one public-entity class, not yet selected"],
+    "includedContexts": ["Public websites and mobile applications"],
+    "excludedContexts": ["Private entities", "Legal representation"],
+    "generalizationBoundary": "The case cannot generalize beyond the selected state and entity class without a transport argument."
+  },
+  "actors": [
+    {
+      "id": "ACT-OWNER",
+      "name": "Human research owner",
+      "role": "Decision owner and accountable publisher",
+      "accountable": true,
+      "conflicts": []
+    },
+    {
+      "id": "ACT-AGENT",
+      "name": "Research agent",
+      "role": "Source retrieval and structured extraction",
+      "accountable": false,
+      "conflicts": [
+        "Same model context performed the internal role-separated challenge."
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "id": "OBJ-LEARN",
+      "statement": "Reduce uncertainty about real buyer problems before product construction.",
+      "measure": "Decision-relevant problem and procurement evidence obtained per research cost.",
+      "direction": "maximize"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "CONCEPT-DEADLINE-AND-DEMAND",
+      "name": "A deadline is not the same as buyer demand",
+      "plainMeaning": "A rule can require an organization to act by a date. It does not, by itself, tell us what the organization struggles with, what alternatives it has, or whether it will pay a new provider.",
+      "whyItMattersHere": "The deadline explains why accessibility work has a time boundary. Separate buyer research is still needed before calling that work a business opportunity.",
+      "history": [
+        {
+          "period": "2024 to 2026 rule and amendment period",
+          "whatChanged": "The Department of Justice published the Title II web and mobile-app rule, and the current official page records an April 2026 interim final rule with updated compliance dates.",
+          "whyItChanged": "This example establishes that the official dates changed; it does not claim to have established the policy reasons for the amendment.",
+          "sourceIds": ["SRC-ADA-RULE"]
+        }
+      ],
+      "whatIsWellEstablished": [
+        "The official page is an appropriate first-party source for the dates it states.",
+        "A compliance date and evidence of willingness to buy answer different questions."
+      ],
+      "whatIsStillDebated": [
+        "Which problems are important enough for a selected entity class to fund externally.",
+        "Whether internal staff, existing providers, or a new service would be the preferred response."
+      ],
+      "commonMisunderstandings": [
+        "A large population affected by a rule is not automatically a large reachable market.",
+        "An official source can establish the rule without establishing a buyer's unmet need."
+      ],
+      "limits": [
+        "This concept does not determine whether the rule applies to a particular entity.",
+        "It does not replace direct research with buyers, operators, or affected users."
+      ],
+      "sourceIds": ["SRC-ADA-RULE"],
+      "relatedConceptIds": [],
+      "relatedClaimIds": ["CLM-DEADLINE", "CLM-NEXT-ACTION"]
+    }
+  ],
+  "researchQuestions": [
+    {
+      "id": "RQ-DEADLINE",
+      "question": "What current federal dates govern the scoped entities?",
+      "startingPoint": "A deadline appears to create urgency, but the date must be verified before it can even supply context.",
+      "whyItMatters": "An obsolete date could create false urgency and distort every later business judgment.",
+      "howItWasNarrowed": "The broad question about an accessibility market was split so that the official date could be checked separately from buyer problems and willingness to pay.",
+      "whatItDoesNotAnswer": [
+        "Whether the rule applies to a particular unnamed entity.",
+        "Whether any buyer needs a new service."
+      ],
+      "decisionItInforms": "Prevent an obsolete deadline from driving the opportunity claim.",
+      "priority": "decisive",
+      "answerClaimIds": ["CLM-DEADLINE"],
+      "relatedConceptIds": ["CONCEPT-DEADLINE-AND-DEMAND"]
+    },
+    {
+      "id": "RQ-PROBLEM",
+      "question": "Which accessibility and procurement jobs remain poorly served?",
+      "startingPoint": "Organizations face a rule, but their actual work, obstacles, alternatives, and authority to buy are still unknown.",
+      "whyItMatters": "A service is useful only if it improves a real situation for the people doing, buying, or experiencing the work.",
+      "howItWasNarrowed": "The question asks about one future state and one entity class so that different roles and procurement paths are not flattened into a national assumption.",
+      "whatItDoesNotAnswer": [
+        "How common any discovered problem is nationally.",
+        "Whether a proposed solution will work or make economic sense."
+      ],
+      "decisionItInforms": "Decide whether any service concept deserves design work.",
+      "priority": "decisive",
+      "answerClaimIds": [],
+      "relatedConceptIds": ["CONCEPT-DEADLINE-AND-DEMAND"]
+    }
+  ],
+  "searchProtocols": [
+    {
+      "id": "SEARCH-ADA",
+      "questionIds": ["RQ-DEADLINE"],
+      "intentStatus": "prospective",
+      "sourcesSearched": ["ADA.gov official rule page"],
+      "queries": ["Title II web mobile app compliance dates 2026 final rule"],
+      "inclusionRules": ["Current first-party federal source"],
+      "exclusionRules": ["Unsourced summaries"],
+      "searchStartedAt": "2026-08-20T01:00:00Z",
+      "searchEndedAt": "2026-08-20T01:20:00Z",
+      "searcherActorIds": ["ACT-AGENT"],
+      "stoppingRule": "Stop after locating the current official rule page and its amendment notice.",
+      "deviations": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC-ADA-RULE",
+      "title": "Fact Sheet: New Rule on the Accessibility of Web Content and Mobile Apps Provided by State and Local Governments",
+      "creators": ["United States Department of Justice"],
+      "publisher": "ADA.gov",
+      "sourceKind": "primary_authoritative",
+      "url": "https://www.ada.gov/resources/2024-03-08-web-rule/",
+      "accessedAt": "2026-08-20T01:15:00Z",
+      "version": "Page reflecting April 20, 2026 interim final rule",
+      "jurisdiction": "United States",
+      "accessLimitations": [],
+      "conflicts": []
+    }
+  ],
+  "extractedRecords": [
+    {
+      "id": "REC-DEADLINES",
+      "sourceId": "SRC-ADA-RULE",
+      "locatorWithinSource": "Compliance dates section",
+      "extraction": "50,000 or more: April 26, 2027; under 50,000 and special districts: April 26, 2028.",
+      "extractionMode": "paraphrase",
+      "extractedByActorId": "ACT-AGENT",
+      "extractedAt": "2026-08-20T01:18:00Z",
+      "checkedByActorId": "ACT-OWNER"
+    }
+  ],
+  "sourceAppraisals": [
+    {
+      "id": "APP-ADA-RULE",
+      "sourceId": "SRC-ADA-RULE",
+      "claimFitness": ["Current federal compliance-date statement"],
+      "strengths": ["First-party authority", "Names the 2026 amendment"],
+      "limitations": ["Does not decide applicability for an unnamed entity"],
+      "biasRisks": [],
+      "scope": {
+        "jurisdictions": ["United States"],
+        "populations": ["State and local governments covered by Title II"],
+        "includedContexts": ["Web content and mobile applications"],
+        "excludedContexts": ["Entity-specific legal application"],
+        "generalizationBoundary": "Supports the stated federal dates, not legal advice for exact facts."
+      },
+      "appraisedByActorIds": ["ACT-OWNER"],
+      "appraisedAt": "2026-08-20T02:00:00Z"
+    }
+  ],
+  "evidenceFamilies": [
+    {
+      "id": "EF-AUTHORITY",
+      "label": "Current federal authority",
+      "sourceIds": ["SRC-ADA-RULE"],
+      "independenceAssessment": "One authoritative family; no source-count inflation.",
+      "sharedDependencies": ["Department of Justice publication state"],
+      "actorOrigin": "regulator"
+    }
+  ],
+  "missingEvidenceAssessments": [
+    {
+      "id": "MISS-BUYER",
+      "questionId": "RQ-PROBLEM",
+      "missingEvidence": "Direct evidence from scoped public-entity buyers, operators, and affected users.",
+      "likelyDirection": "unknown",
+      "materiality": "decisive",
+      "reasonMissing": "This example records the planned research steps before recruiting people.",
+      "mitigation": "Run the prospective accessible discovery study before service design."
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-DEADLINE",
+      "claimKind": "observed_fact",
+      "statement": "The current official page states April 26, 2027 for entities of 50,000 or more and April 26, 2028 for smaller entities and special districts.",
+      "scope": {
+        "jurisdictions": ["United States"],
+        "populations": ["Title II entities described by the rule page"],
+        "includedContexts": ["The official page as checked on the evidence cutoff"],
+        "excludedContexts": ["Entity-specific applicability"],
+        "generalizationBoundary": "Must be rechecked for rule changes and exact entity facts."
+      },
+      "sourceIds": ["SRC-ADA-RULE"],
+      "extractedRecordIds": ["REC-DEADLINES"],
+      "evidenceFamilyIds": ["EF-AUTHORITY"],
+      "confidence": {
+        "mode": "qualitative",
+        "label": "high for page content, not applicability",
+        "basis": "Direct extraction from the current first-party source."
+      },
+      "assumptions": [],
+      "exceptions": [
+        "A later amendment or court action may change the operating state."
+      ],
+      "conflictsWithClaimIds": [],
+      "freshnessPolicyId": "FRESH-DEADLINE"
+    },
+    {
+      "id": "CLM-NEXT-ACTION",
+      "claimKind": "recommendation",
+      "statement": "Select one state and entity class, then run accessible problem and procurement discovery before designing a compliance service.",
+      "scope": {
+        "jurisdictions": ["One future selected US state"],
+        "populations": ["One future selected public-entity class"],
+        "includedContexts": ["Research only"],
+        "excludedContexts": ["Service launch", "Compliance claims"],
+        "generalizationBoundary": "The recommendation authorizes only the stated research."
+      },
+      "sourceIds": [],
+      "extractedRecordIds": [],
+      "evidenceFamilyIds": [],
+      "confidence": {
+        "mode": "not_assigned",
+        "basis": "Decision recommendation under decisive missing buyer evidence."
+      },
+      "assumptions": ["Accessible recruitment is feasible at proportionate cost."],
+      "exceptions": [
+        "Stop if ethical, accessibility, or procurement access prerequisites fail."
+      ],
+      "conflictsWithClaimIds": []
+    }
+  ],
+  "inferences": [
+    {
+      "id": "INF-NEXT-ACTION",
+      "inferenceKind": "decision",
+      "premiseClaimIds": ["CLM-DEADLINE"],
+      "conclusionClaimId": "CLM-NEXT-ACTION",
+      "reasoning": "A current regulatory date supplies context but cannot establish buyer problems. Because that buyer evidence is still missing, a small and reversible discovery study is more justified than building a service.",
+      "reasoningSourceIds": [],
+      "relatedConceptIds": ["CONCEPT-DEADLINE-AND-DEMAND"],
+      "assumptions": [
+        "Discovery is cheaper and more reversible than service construction."
+      ],
+      "exceptions": [
+        "A binding opportunity-independent reason could prohibit even research."
+      ],
+      "alternativeExplanations": [
+        "Entities may solve the job internally or through incumbents."
+      ],
+      "criticalQuestions": [
+        "Will recruitment cover relevant size, role, and accessibility differences?"
+      ]
+    }
+  ],
+  "transportArguments": [],
+  "uncertainties": [
+    {
+      "id": "UNC-BUYER-PROBLEM",
+      "targetId": "CLM-NEXT-ACTION",
+      "description": "The prevalence, severity, and purchase priority of the buyer problem are unknown.",
+      "mode": "qualitative",
+      "value": "decisive unknown",
+      "basis": "No scoped primary buyer study has run.",
+      "decisionMateriality": "decisive",
+      "reducibleByIds": ["STUDY-DISCOVERY"]
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "ALT-DISCOVERY",
+      "name": "Run one-state, one-class discovery",
+      "mechanism": "Interview and observe scoped buyers, operators, and affected users before selecting a service concept.",
+      "actorIds": ["ACT-OWNER"],
+      "objectiveIds": ["OBJ-LEARN"],
+      "constraints": [
+        "Accessible consent and research materials",
+        "No compliance representation"
+      ],
+      "controlBoundaryIds": ["CTRL-RESEARCHER"],
+      "hazardTransferIds": [],
+      "chainOfCustodyIds": [],
+      "claimIds": ["CLM-NEXT-ACTION"],
+      "statusQuo": false
+    },
+    {
+      "id": "ALT-BUILD",
+      "name": "Build an automated compliance product now",
+      "mechanism": "Design around the regulatory date without scoped buyer research.",
+      "actorIds": ["ACT-OWNER"],
+      "objectiveIds": ["OBJ-LEARN"],
+      "constraints": ["Cannot claim that automation alone determines conformance"],
+      "controlBoundaryIds": ["CTRL-RESEARCHER"],
+      "hazardTransferIds": [],
+      "chainOfCustodyIds": [],
+      "claimIds": [],
+      "statusQuo": false
+    }
+  ],
+  "economicModels": [],
+  "studyPlans": [
+    {
+      "id": "STUDY-DISCOVERY",
+      "decisionItInforms": "Decide whether a concrete service problem merits solution and economics research.",
+      "population": "People responsible for accessibility, procurement, operations, and affected use in one selected entity class.",
+      "samplingAndRecruitment": "Purposefully recruit across entity size, role, and accessibility context; record nonresponse and channel effects.",
+      "heterogeneity": [
+        "Entity size",
+        "Role",
+        "Procurement pathway",
+        "Disability and assistive-technology context"
+      ],
+      "measures": [
+        "Problem episodes",
+        "Current alternatives",
+        "Failure costs",
+        "Procurement constraints",
+        "Evidence of budgeted action"
+      ],
+      "analysis": "Code episodes and alternatives; preserve negative cases and role-specific disagreement.",
+      "stoppingRule": "Stop when each planned heterogeneity cell has evidence or a documented access failure and new sessions cease changing the decision map.",
+      "missingness": "Report unreachable roles, entities, and disabled-user contexts as material missing evidence.",
+      "ethicsAndPrivacy": "Use accessible consent, minimize sensitive data, compensate lived-experience participants, and define retention.",
+      "generalizationBoundary": "No prevalence estimate or national transfer from purposive discovery.",
+      "intentStatus": "prospective"
+    }
+  ],
+  "testPortfolios": [
+    {
+      "id": "PORTFOLIO-NEXT",
+      "tests": [
+        {
+          "id": "TEST-DISCOVERY",
+          "position": 1,
+          "studyPlanId": "STUDY-DISCOVERY",
+          "prerequisites": [],
+          "costAndDelay": "Bounded research cost before product construction.",
+          "reversibility": "High; the protocol can stop without a launched service.",
+          "possibleResults": [
+            "A repeated costly job with unsatisfactory alternatives",
+            "No repeated or purchase-relevant job",
+            "Coverage failure"
+          ],
+          "resultToAction": [
+            "Promote to scoped solution and economics research",
+            "Stop the branch",
+            "Revise recruitment before interpreting absence"
+          ],
+          "stopRules": [
+            "Stop product work if no material job survives negative-case review."
+          ],
+          "promotionRules": [
+            "Promote only after new evidence faces a fresh challenge."
+          ],
+          "orderingRationale": "Buyer-problem evidence is cheaper and more discriminating than classification, implementation, or sales infrastructure.",
+          "ownerActorId": "ACT-OWNER"
+        }
+      ]
+    }
+  ],
+  "decisionFrame": {
+    "id": "DEC-NEXT",
+    "decisionOwnerActorId": "ACT-OWNER",
+    "decision": "Which action, if any, should follow this first source check?",
+    "objectiveIds": ["OBJ-LEARN"],
+    "alternativeIds": ["ALT-DISCOVERY", "ALT-BUILD"],
+    "constraints": [
+      "No legal advice",
+      "No inaccessible research",
+      "No automated conformance claim"
+    ],
+    "horizon": "Next research cycle",
+    "riskPosture": "Prefer reversible learning while decisive buyer evidence is absent.",
+    "irreversibleActions": [
+      "Public compliance representation",
+      "Material product construction"
+    ]
+  },
+  "recommendation": {
+    "id": "REC-NEXT",
+    "decisionFrameId": "DEC-NEXT",
+    "recommendedAlternativeId": "ALT-DISCOVERY",
+    "recommendationClaimId": "CLM-NEXT-ACTION",
+    "conditions": ["Select the jurisdiction and entity class before recruitment."],
+    "stopConditions": ["Accessible and ethical recruitment cannot be established."],
+    "nextTestPortfolioId": "PORTFOLIO-NEXT",
+    "validUntil": "2026-11-20",
+    "residualRisks": ["Purposive discovery may miss uncommon but important contexts."]
+  },
+  "freshnessPolicies": [
+    {
+      "id": "FRESH-DEADLINE",
+      "targetId": "CLM-DEADLINE",
+      "volatilityClass": "event_driven",
+      "authoritativeRefreshSources": [
+        "ADA.gov rule and amendment pages",
+        "Federal Register"
+      ],
+      "maximumAgeDays": 30,
+      "eventTriggers": [
+        "Department of Justice amendment",
+        "Relevant court order",
+        "New official implementation guidance"
+      ],
+      "lastCheckedAt": "2026-08-20T01:15:00Z",
+      "ownerActorId": "ACT-OWNER",
+      "invalidationAction": "Fail dependent date claims, summaries, and publication gates until rechecked."
+    }
+  ],
+  "regulatoryRequirements": [],
+  "applicabilityDecisions": [],
+  "controlBoundaries": [
+    {
+      "id": "CTRL-RESEARCHER",
+      "actorId": "ACT-OWNER",
+      "controlledObjectsAndActivities": [
+        "Study plan recorded before recruiting participants",
+        "Evidence extraction",
+        "Published wording"
+      ],
+      "externalDependencies": [
+        "Entity cooperation",
+        "Authoritative legal state",
+        "Third-party platform behavior"
+      ],
+      "duties": ["Do not represent legal conformance", "Preserve corrections"],
+      "handoffs": [
+        "Qualified legal and accessibility review before any compliance representation"
+      ],
+      "failureAndEscalation": "Stop affected action when an applicability or accessibility question exceeds competence.",
+      "residualAccountability": "The human owner remains accountable for scope and publication."
+    }
+  ],
+  "challenges": [
+    {
+      "id": "CHG-INDEPENDENCE",
+      "targetIds": ["CLM-NEXT-ACTION"],
+      "challengeKind": "inference",
+      "statement": "The internal challenge was role-separated but produced by the same model and context.",
+      "severity": "material",
+      "raisedByActorId": "ACT-AGENT",
+      "raisedAt": "2026-08-20T03:00:00Z",
+      "independence": "role_separated",
+      "status": "accepted",
+      "response": "Keep the example provisional and require independent external review before any validated-standard claim.",
+      "responseEvidenceIds": [],
+      "affectedObjectIds": ["CLM-NEXT-ACTION"]
+    }
+  ],
+  "agentRuns": [
+    {
+      "id": "RUN-EXAMPLE",
+      "actorId": "ACT-AGENT",
+      "modelAndToolIdentity": "Codex research agent; exact deployment recorded in the private run log",
+      "procedureOrPrompt": "Recorded source search, extraction, reasoning, challenge, and revision for the public example",
+      "sourceIdsAccessed": ["SRC-ADA-RULE"],
+      "transformations": [
+        "Page retrieval",
+        "Paraphrased extraction",
+        "Claim and reasoning recording"
+      ],
+      "startedAt": "2026-08-20T01:00:00Z",
+      "endedAt": "2026-08-20T03:30:00Z",
+      "reviewerActorId": "ACT-OWNER",
+      "limitations": ["No independent model context", "No specialist legal review"]
+    }
+  ],
+  "typedRelations": [
+    {
+      "id": "REL-SUPPORT",
+      "relationType": "supports",
+      "fromId": "REC-DEADLINES",
+      "toId": "CLM-DEADLINE",
+      "rationale": "The extracted record supplies the exact date statement."
+    },
+    {
+      "id": "REL-CHALLENGE",
+      "relationType": "challenges",
+      "fromId": "CHG-INDEPENDENCE",
+      "toId": "CLM-NEXT-ACTION",
+      "rationale": "Low review independence limits promotion."
+    }
+  ],
+  "validationResults": [
+    {
+      "id": "VAL-SCOPE",
+      "validatorId": "V-SCOPE-PROVENANCE",
+      "targetIds": ["OC-US-WCAG-DISCOVERY"],
+      "outcome": "pass",
+      "checkedAt": "2026-08-20T03:40:00Z",
+      "checkedByActorId": "ACT-OWNER",
+      "rationale": "Mandate, local scope, source, extraction, and agent provenance are explicit.",
+      "limitations": []
+    },
+    {
+      "id": "VAL-EVIDENCE",
+      "validatorId": "V-EVIDENCE-INFERENCE",
+      "targetIds": ["INF-NEXT-ACTION"],
+      "outcome": "pass",
+      "checkedAt": "2026-08-20T03:41:00Z",
+      "checkedByActorId": "ACT-OWNER",
+      "rationale": "The regulatory context is not converted into buyer demand.",
+      "limitations": ["Buyer evidence remains deliberately missing."]
+    },
+    {
+      "id": "VAL-ECONOMICS",
+      "validatorId": "V-ECONOMICS-DECISION",
+      "targetIds": ["DEC-NEXT"],
+      "outcome": "conditional",
+      "checkedAt": "2026-08-20T03:42:00Z",
+      "checkedByActorId": "ACT-OWNER",
+      "rationale": "Only a research decision is supported; operating economics are not yet modeled.",
+      "limitations": ["No service economics may be inferred."]
+    },
+    {
+      "id": "VAL-CHALLENGE",
+      "validatorId": "V-ADVERSARIAL-SAFETY",
+      "targetIds": ["CHG-INDEPENDENCE"],
+      "outcome": "conditional",
+      "checkedAt": "2026-08-20T03:43:00Z",
+      "checkedByActorId": "ACT-OWNER",
+      "rationale": "Internal challenge completed; external independent challenge remains pending.",
+      "limitations": ["Low independence"]
+    },
+    {
+      "id": "VAL-OUTPUT",
+      "validatorId": "V-PUBLIC-OUTPUT-ACCESSIBILITY",
+      "targetIds": ["OUT-METHOD"],
+      "outcome": "not_run",
+      "checkedAt": "2026-08-20T03:44:00Z",
+      "checkedByActorId": "ACT-OWNER",
+      "rationale": "The current public explanation has not yet received version-specific human accessibility review.",
+      "limitations": ["Blocks published status"]
+    }
+  ],
+  "publicationGates": [
+    {
+      "id": "GATE-SCOPE",
+      "gateKind": "scope_provenance",
+      "outcome": "pass",
+      "validationResultIds": ["VAL-SCOPE"],
+      "reviewerActorIds": ["ACT-OWNER"],
+      "decidedAt": "2026-08-20T03:50:00Z",
+      "rationale": "The research object is traceable.",
+      "blockingObjectIds": []
+    },
+    {
+      "id": "GATE-EVIDENCE",
+      "gateKind": "evidence_inference",
+      "outcome": "pass",
+      "validationResultIds": ["VAL-EVIDENCE"],
+      "reviewerActorIds": ["ACT-OWNER"],
+      "decidedAt": "2026-08-20T03:51:00Z",
+      "rationale": "The bounded research recommendation follows without a demand claim.",
+      "blockingObjectIds": []
+    },
+    {
+      "id": "GATE-ECONOMICS",
+      "gateKind": "economics_decision",
+      "outcome": "conditional",
+      "validationResultIds": ["VAL-ECONOMICS"],
+      "reviewerActorIds": ["ACT-OWNER"],
+      "decidedAt": "2026-08-20T03:52:00Z",
+      "rationale": "Permits research only and blocks operating recommendation.",
+      "blockingObjectIds": ["ALT-BUILD"]
+    },
+    {
+      "id": "GATE-CHALLENGE",
+      "gateKind": "adversarial_safety",
+      "outcome": "conditional",
+      "validationResultIds": ["VAL-CHALLENGE"],
+      "reviewerActorIds": ["ACT-OWNER"],
+      "decidedAt": "2026-08-20T03:53:00Z",
+      "rationale": "External independent review blocks standard validation, not bounded public derivation disclosure.",
+      "blockingObjectIds": ["CHG-INDEPENDENCE"]
+    },
+    {
+      "id": "GATE-OUTPUT",
+      "gateKind": "public_artifact_accessibility",
+      "outcome": "not_run",
+      "validationResultIds": ["VAL-OUTPUT"],
+      "reviewerActorIds": ["ACT-OWNER"],
+      "decidedAt": "2026-08-20T03:54:00Z",
+      "rationale": "Requires version-specific technical and human accessibility review.",
+      "blockingObjectIds": ["OUT-METHOD"]
+    }
+  ],
+  "changeSets": [
+    {
+      "id": "CHANGE-DEADLINE",
+      "previousVersion": "0.1.0",
+      "newVersion": "0.2.0",
+      "changeKind": "material",
+      "changedAt": "2026-08-20T02:30:00Z",
+      "changedByActorIds": ["ACT-OWNER", "ACT-AGENT"],
+      "reason": "A current 2026 federal source defeated the frozen smaller-entity 2027 deadline proposition.",
+      "changedObjectIds": ["CLM-DEADLINE"],
+      "invalidatedObjectIds": ["CLM-DEADLINE-V0.1"],
+      "replacementObjectIds": ["CLM-DEADLINE"],
+      "reviewIds": ["CHG-INDEPENDENCE"],
+      "publicNotice": "The earlier smaller-entity deadline was corrected to April 26, 2028; the old proposition remains in the private research record."
+    },
+    {
+      "id": "CHANGE-LEARNING-CONTEXT",
+      "previousVersion": "0.2.0",
+      "newVersion": "0.3.0",
+      "changeKind": "material",
+      "changedAt": "2026-08-21T12:00:00Z",
+      "changedByActorIds": ["ACT-OWNER"],
+      "reason": "The earlier case exposed its audit structure without carrying enough plain-language context for an ordinary reader to understand the question, concept, and reasoning.",
+      "changedObjectIds": [
+        "CONCEPT-DEADLINE-AND-DEMAND",
+        "RQ-DEADLINE",
+        "RQ-PROBLEM",
+        "INF-NEXT-ACTION"
+      ],
+      "invalidatedObjectIds": [],
+      "replacementObjectIds": [],
+      "reviewIds": [],
+      "publicNotice": "The example now begins with a short answer and explains how the questions were narrowed, what the central idea means, how it developed, and what remains unknown."
+    }
+  ],
+  "evaluationPlan": {
+    "id": "EVAL-REAL-RUN",
+    "predictionIds": [],
+    "outcomeMeasures": [
+      "Problems surviving negative-case review",
+      "Method failures and corrections",
+      "Difference between predicted and observed next-test results"
+    ],
+    "observationDates": ["2026-11-20"],
+    "comparisonMethod": "Compare prospective protocol and promotion rules with the completed research record.",
+    "revisionTrigger": "Revise the case format or explanation when a repeated failure cannot be represented, ordinary readers cannot follow the reasoning, or a check produces harmful false confidence.",
+    "ownerActorId": "ACT-OWNER"
+  },
+  "domainModules": {
+    "digitalAccessibility": {
+      "moduleVersion": "0.2.0",
+      "evaluationScopes": [
+        {
+          "id": "SCOPE-FUTURE-EVAL",
+          "criticalJourneys": ["To be selected from actual user and entity evidence"],
+          "pageTemplateAndSampleLogic": "Not yet designed; must follow the scoped system inventory.",
+          "contentDocumentAndApplicationStates": [
+            "Web content",
+            "Documents",
+            "Authenticated and error states when relevant"
+          ],
+          "authenticationLanguagesThirdParties": [
+            "Record rather than silently exclude each dependency"
+          ],
+          "browserAndAssistiveTechnologyMatrix": [
+            "Versioned matrix to be selected with affected-user input"
+          ],
+          "automatedAndManualChecks": [
+            "Automated rules",
+            "Knowledgeable human evaluation",
+            "Disabled-user research where appropriate"
+          ],
+          "disabledUserParticipantScope": "Must be designed and compensated before evaluation claims.",
+          "exclusions": ["No claim that one sample establishes universal conformance"],
+          "residualCoverage": "Unknown until one entity and system are selected."
+        }
+      ],
+      "outputAccessibilityResults": [
+        {
+          "id": "OUT-METHOD",
+          "artifactAndVersion": "Public research-approach page, current version pending human accessibility review",
+          "formats": ["Responsive HTML"],
+          "criteria": [
+            "WCAG 2.2 AA review target",
+            "Semantic and assistive-technology usability"
+          ],
+          "methods": [
+            "Automated checks",
+            "Keyboard review",
+            "Screen-reader review",
+            "Zoom and reflow review"
+          ],
+          "assistiveTechnologies": [],
+          "humanReview": "Not yet run",
+          "userScope": "Ordinary readers, researchers, and agents",
+          "findings": [],
+          "unresolvedBarriers": [
+            "Implementation and version-specific validation pending"
+          ]
+        }
+      ]
+    },
+    "jurisdictionSpecific": {}
+  }
+}

@@ -27,7 +27,14 @@
   line-height: 1.7;
 }
 
-.explore-coming-soon a {
+.explore-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem 1.75rem;
+  margin-top: 1.8rem;
+}
+
+.explore-actions a {
   font-size: 0.78rem;
   font-weight: 750;
   text-underline-offset: 0.25rem;

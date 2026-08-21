@@ -10,15 +10,18 @@ export function ExplorePage(): ReactElement {
   return (
     <main className="explore-page" id="main-content">
       <section className="explore-coming-soon">
-        <p className="eyebrow">Opportunity cases</p>
-        <h1>The case library is in research.</h1>
+        <p className="eyebrow">The first public case</p>
+        <h1>We are still doing the work.</h1>
         <p>
-          We are selecting one geography and one bounded opportunity family for the
-          first publication. Nothing appears here until readers can trace the material
-          claims, change the central assumptions, understand the strongest failure case,
-          and see the cheapest next test.
+          We will not fill this page with polished-looking business ideas. The first
+          case will appear when someone with no special training can understand the
+          question, follow each important concept and source, check what the numbers
+          mean, see the strongest disagreement, and know what should be tested next.
         </p>
-        <a href="/#how-it-works">Read the research method →</a>
+        <div className="explore-actions">
+          <a href="/methodology">See how we know →</a>
+          <a href="/#product">See what the case will contain</a>
+        </div>
       </section>
     </main>
   );

@@ -13,6 +13,15 @@ must keep claims, sources, assumptions, calculations, uncertainty, failure modes
 revision history predictable and inspectable. Agents may help research and consume
 structured cases, but humans remain the audience and final decision-makers.
 
+An Opportunity Case is also a public learning path. It begins with the questions and
+language an ordinary reader already has, then lets that reader inspect where an idea
+came from, what each necessary business concept means, how the evidence was weighed,
+why a calculation is useful, where knowledgeable people disagree, and what remains
+unknown. Exactness may add depth; it must never become a gate. Do not invent branded
+method vocabulary where a familiar word or a direct question will do. The reader
+should finish both better able to judge this case and better able to ask the next
+question without us.
+
 ## Required reading
 
 Before changing code, read:

@@ -1,156 +1,205 @@
 {
-  "title": "How SellWhatPeopleWant turns a possible market gap into a testable decision",
-  "principle": "A useful Opportunity Case shows the strongest argument for an idea, the strongest argument against it, and the cheapest evidence that should come next.",
+  "title": "How an ordinary question becomes a business case you can understand and check",
+  "principle": "Start with what a person can recognize. Explain the reasoning in ordinary language. Keep every important source, concept, calculation, disagreement, and unknown within reach.",
   "views": [
     {
       "id": "whole-case",
       "label": "Whole case",
-      "title": "From interesting idea to inspectable decision.",
-      "summary": "The product is not a feed of business ideas. It is a bounded, evidence-backed, continuously correctable case that connects market evidence to execution and risk.",
+      "title": "From something you notice to a question you can test.",
+      "summary": "An Opportunity Case does more than announce a business idea. It shows how the question formed, builds a conditional answer from incomplete evidence, and helps the reader decide what to learn or try next.",
       "steps": [
         {
-          "title": "Bounded question",
-          "detail": "Name the geography, time window, customer, proposed business, and decision the research must inform.",
+          "title": "Something does not quite work",
+          "detail": "A product is hard to find, a service is slow, a price seems strange, or people keep making an awkward compromise.",
           "tone": "sky"
         },
         {
-          "title": "Triangulated evidence",
-          "detail": "Combine behaviour, prices, alternatives, regulation, interviews, operations, and local context with their limits visible.",
+          "title": "Turn the observation into a question",
+          "detail": "Name the people, place, time, alternative, and decision. Explain why this question is useful and which nearby questions were left open.",
           "tone": "violet"
         },
         {
-          "title": "Editable model",
-          "detail": "Expose costs, prices, capital, timing, assumptions, scenarios, and the conditions that break the business.",
+          "title": "Learn what would have to be true",
+          "detail": "Follow people, money, work, rules, time, and competing explanations. Introduce each necessary idea where it becomes useful.",
           "tone": "mint"
         },
         {
-          "title": "Failure case",
-          "detail": "Seek contradictions, fragile assumptions, ruin scenarios, and evidence that would reverse the conclusion.",
+          "title": "Give a conditional answer",
+          "detail": "Say where the case looks promising, where it fails, what remains unknown, and what observation would change the answer.",
           "tone": "sand"
         },
         {
-          "title": "Cheapest next test",
-          "detail": "Give the reader the smallest lawful and ethical experiment that most reduces uncertainty.",
+          "title": "Take the smallest honest next step",
+          "detail": "Reject the idea, revise it, investigate a decisive unknown, or run the cheapest lawful test before risking more.",
           "tone": "coral"
         }
       ],
-      "connections": ["frames", "models", "challenges", "makes testable"]
+      "connections": ["shapes", "opens", "supports", "guides"]
     },
     {
       "id": "evidence",
-      "label": "Evidence",
-      "title": "Signals become useful when their limits remain visible.",
-      "summary": "Statements, reviews, transactions, searches, shortages, and interviews may inform a case, but none becomes objective market truth by itself.",
+      "label": "Sources",
+      "title": "A source helps only when you know what it can and cannot show.",
+      "summary": "What people say, buy, avoid, search for, repair, substitute, or tolerate can all matter. None of those signals reveals the whole market or a person's hidden true preference by itself.",
       "steps": [
         {
-          "title": "Observed source",
-          "detail": "Capture what was actually observed, where, when, by whom, and under which selection conditions.",
+          "title": "Show what we encountered",
+          "detail": "Link the document, price, observation, interview, transaction, or field report. State who produced it, where, when, and under what conditions.",
           "tone": "sky"
         },
         {
-          "title": "Typed claim",
-          "detail": "Separate fact, sourced estimate, calculation, interpretation, hypothesis, and recommendation.",
+          "title": "Explain why it deserves attention",
+          "detail": "Say what the source directly knows, how close it is to the event, what incentive shaped it, and why it helps with this question.",
           "tone": "violet"
         },
         {
-          "title": "Competing explanation",
-          "detail": "Look for alternative causes, contradictory cases, missing populations, conflicts, and jurisdictional limits.",
+          "title": "Name what it leaves out",
+          "detail": "Look for missing people, changed prices, selection effects, conflicts, local limits, and the difference between words and behaviour.",
           "tone": "sand"
         },
         {
-          "title": "Inspectable conclusion",
-          "detail": "State what the evidence supports, what it cannot establish, and what new observation would discriminate.",
-          "tone": "coral"
-        }
-      ],
-      "connections": ["classifies", "challenges", "bounds"]
-    },
-    {
-      "id": "economics",
-      "label": "Economics",
-      "title": "Readers can change the assumptions doing the work.",
-      "summary": "One forecast hides uncertainty. An Opportunity Case makes the operating model and scenario range editable.",
-      "steps": [
-        {
-          "title": "Operational inputs",
-          "detail": "Show price, volume, landed cost, labor, acquisition, working capital, financing, delay, loss, and cash cycle.",
-          "tone": "sky"
-        },
-        {
-          "title": "Scenario range",
-          "detail": "Calculate base, upside, downside, and break-the-business outcomes without manufacturing precision.",
+          "title": "Compare other explanations",
+          "detail": "Ask what else could produce the same pattern and seek evidence that would distinguish those possibilities.",
           "tone": "mint"
         },
         {
-          "title": "Fragile assumptions",
-          "detail": "Identify which variables control the conclusion and how much room exists before the thesis fails.",
-          "tone": "sand"
-        },
-        {
-          "title": "Reproducible decision",
-          "detail": "Let the reader inspect formulas, change inputs, and understand why a conclusion moves.",
+          "title": "State only what the bundle supports",
+          "detail": "Keep the observation, interpretation, assumption, and recommendation separate in the explanation, without making the reader learn private labels.",
           "tone": "coral"
         }
       ],
-      "connections": ["calculates", "stress-tests", "explains"]
+      "connections": ["grounds", "limits", "challenges", "supports"]
+    },
+    {
+      "id": "concepts",
+      "label": "Ideas",
+      "title": "Explain the idea before asking the reader to use its name.",
+      "summary": "Terms such as incentive, working capital, substitution, or break-even are useful when they help a reader see a relationship—not when they act as passwords into business knowledge.",
+      "steps": [
+        {
+          "title": "Begin with the familiar situation",
+          "detail": "Describe what people are choosing, giving up, waiting for, paying for, or risking in language that works without the term.",
+          "tone": "sky"
+        },
+        {
+          "title": "Name the idea",
+          "detail": "Introduce the shared term so the reader can recognize it elsewhere, then give a short explanation beside it.",
+          "tone": "violet"
+        },
+        {
+          "title": "Show where it came from",
+          "detail": "Offer a deeper path through the problem people were trying to solve, how the idea changed, and which observations made it useful.",
+          "tone": "mint"
+        },
+        {
+          "title": "Show its limits and disagreements",
+          "detail": "Explain when the idea stops travelling well, what alternatives exist, and what researchers or practitioners still contest.",
+          "tone": "sand"
+        },
+        {
+          "title": "Return it to this decision",
+          "detail": "Make clear what the idea helps us notice here and what it cannot decide for the reader.",
+          "tone": "coral"
+        }
+      ],
+      "connections": ["names", "deepens", "qualifies", "applies"]
+    },
+    {
+      "id": "economics",
+      "label": "Numbers",
+      "title": "Explain the relationship first; show the exact mathematics underneath.",
+      "summary": "Numbers make a case more exact only when a reader can understand what is being represented, why the calculation was chosen, and which uncertain inputs control the result.",
+      "steps": [
+        {
+          "title": "Say what we are trying to understand",
+          "detail": "For example: whether cash returns before bills are due, how many sales cover fixed costs, or how a delay changes the amount of money required.",
+          "tone": "sky"
+        },
+        {
+          "title": "Show the pieces in human terms",
+          "detail": "Connect price, volume, cost, time, interest, loss, and capacity to the real people, work, and events they stand for.",
+          "tone": "violet"
+        },
+        {
+          "title": "Expose the formula and inputs",
+          "detail": "Keep the exact calculation reproducible. Identify which figures were observed, estimated, assumed, or borrowed from another setting.",
+          "tone": "mint"
+        },
+        {
+          "title": "Let the reader try other worlds",
+          "detail": "Change the fragile inputs, compare plausible ranges, and show where the result crosses from workable to dangerous.",
+          "tone": "sand"
+        },
+        {
+          "title": "Say what the number cannot prove",
+          "detail": "A tidy model does not make an uncertain market certain. Name the behaviour, shock, or missing relationship it does not capture.",
+          "tone": "coral"
+        }
+      ],
+      "connections": ["represents", "calculates", "tests", "bounds"]
     },
     {
       "id": "correction",
       "label": "Correction",
-      "title": "Discussion improves a claim, not a popularity score.",
-      "summary": "Participation belongs in the product only when it makes a claim, source, assumption, scenario, or local inference more accurate.",
+      "title": "A challenge should help everyone see the case more clearly.",
+      "summary": "Participation matters when it adds a source, corrects a number, exposes a hidden assumption, supplies local experience, or opens a better question—not when it merely wins agreement.",
       "steps": [
         {
-          "title": "Specific challenge",
-          "detail": "A contributor points to a claim, source, assumption, calculation, scenario, or unresolved question.",
+          "title": "Point to the part in question",
+          "detail": "Identify the statement, source, concept, assumption, calculation, local comparison, or unanswered question that needs attention.",
           "tone": "sky"
         },
         {
-          "title": "Supporting evidence",
-          "detail": "The correction brings provenance, local knowledge, contradiction, or a real-world test outcome.",
+          "title": "Bring a reason or observation",
+          "detail": "Add traceable evidence, relevant experience, a counterexample, an alternative calculation, or a real-world test outcome.",
           "tone": "violet"
         },
         {
-          "title": "Research review",
-          "detail": "Researchers evaluate relevance, conflicts, selection effects, and whether the case should change.",
+          "title": "Work through the disagreement",
+          "detail": "Explain where the accounts differ, which assumptions create the difference, and what new evidence could resolve it.",
           "tone": "sand"
         },
         {
-          "title": "Visible revision",
-          "detail": "The public case updates without erasing what changed, why it changed, or what remains disputed.",
+          "title": "Revise without erasing",
+          "detail": "Update the public case while keeping what changed, why it changed, and what remains disputed visible to later readers.",
           "tone": "coral"
         }
       ],
-      "connections": ["substantiates", "evaluates", "revises"]
+      "connections": ["supports", "examines", "revises"]
     },
     {
       "id": "decision-value",
-      "label": "Decision value",
-      "title": "The outcome is a better decision, including a disciplined no.",
-      "summary": "A case succeeds when it reduces uncertainty or prevents waste—not when it merely attracts attention or produces a positive conclusion.",
+      "label": "What remains",
+      "title": "The result is a better decision and a more capable reader.",
+      "summary": "A case succeeds when it prevents waste, improves a test, or clarifies a real choice—and when the reader can carry its questions and ways of checking into another situation.",
       "steps": [
         {
-          "title": "Understand the opportunity",
-          "detail": "The reader can see the customer, gap, alternatives, economics, execution conditions, and decisive uncertainty.",
+          "title": "Understand this opportunity",
+          "detail": "The reader can explain the people, gap, alternatives, economics, practical work, important evidence, and decisive uncertainty in their own words.",
           "tone": "sky"
         },
         {
-          "title": "Compare the downside",
-          "detail": "Failure modes, recoverability, conflicts, and transfer limits are as legible as the upside.",
+          "title": "See how the answer was built",
+          "detail": "Sources, concepts, calculations, assumptions, disagreements, and unknowns remain connected to the conclusion instead of disappearing behind it.",
+          "tone": "violet"
+        },
+        {
+          "title": "Choose without borrowed certainty",
+          "detail": "Reject, adapt, keep learning, or test the idea while understanding what the research does and does not justify.",
           "tone": "sand"
         },
         {
-          "title": "Choose the next action",
-          "detail": "Reject, adapt, investigate further, or run the smallest useful real-world test.",
+          "title": "Ask a better next question",
+          "detail": "The reader leaves with language, source paths, and habits of inquiry that remain useful beyond this one case.",
           "tone": "mint"
         },
         {
-          "title": "Learn from reality",
-          "detail": "Outcomes return to the case so later readers can compare what happened with what the model assumed.",
+          "title": "Let reality teach us again",
+          "detail": "Outcomes return to the case so readers can compare what happened with what people believed and improve the shared understanding.",
           "tone": "coral"
         }
       ],
-      "connections": ["stress-tests", "decides", "updates"]
+      "connections": ["traces", "guides", "transfers", "updates"]
     }
   ]
 }

@@ -25,68 +25,72 @@ export function OpeningChapter(): ReactElement {
 
       <section className="opening-hero" aria-labelledby="home-title">
         <div className="world-note">
-          <span>Illustrative evidence observatory</span>
-          <span>Products · prices · routes · costs · risks · tests</span>
+          <span>Illustrative research map</span>
+          <span>Questions · people · choices · costs · doubts · tests</span>
           <span>Not a market claim</span>
         </div>
         <div className="opening-copy">
           <p className="eyebrow">
-            Evidence-backed opportunity research for people deciding what to build
+            Business understanding for anyone curious enough to ask
           </p>
-          <h1 id="home-title">
-            We research business ideas before you risk money on them.
-          </h1>
+          <h1 id="home-title">Understand a business idea from the ground up.</h1>
           <p className="hero-definition">
-            SellWhatPeopleWant investigates one possible business in one market and
-            publishes the result as an Opportunity Case: a source-linked, editable
-            argument you can audit. Each case identifies the buyer and apparent gap,
-            tests real alternatives, maps the execution path, models the economics,
-            makes the strongest case against itself, and ends with the cheapest useful
-            experiment—not a promise.
+            You should not need an economics degree, a business education, or a large
+            attention span to understand what people may need and what it would take to
+            serve them. We investigate one possible business at a time and explain it as
+            a clear, source-linked case that anyone can follow.
           </p>
           <p className="hero-trust">
-            We do not sell certainty. Every material claim links to its source. Every
-            calculation exposes its inputs. Assumptions, conflicts, unknowns, and
-            evidence that could reverse the conclusion remain visible.
+            We begin with the human question. Then we open the path beneath it: what
+            important words mean, why those ideas exist, what people actually did, how
+            the numbers work, where the sources came from, who disagrees, and what we
+            still do not know.
           </p>
           <div className="hero-actions">
-            <a className="primary-action" href="#product">
-              See what a case contains <span aria-hidden="true">↓</span>
+            <a className="primary-action" href="/methodology">
+              See how we know <span aria-hidden="true">→</span>
             </a>
-            <a className="text-action" href="#research-standard">
-              Read our research standard
+            <a className="text-action" href="#product">
+              See what a case contains
             </a>
           </div>
         </div>
 
         <div className="hero-proof-strip" aria-label="Opportunity Case essentials">
           <span>
-            <strong>Source-linked evidence</strong>
-            <small>Trace material claims to their origin and date.</small>
+            <strong>A human question</strong>
+            <small>Start with the decision, not a wall of information.</small>
           </span>
           <span>
-            <strong>Editable economics</strong>
-            <small>Change price, cost, capital, and volume assumptions.</small>
+            <strong>Ideas explained</strong>
+            <small>
+              Learn what a concept means, why it exists, and where it stops.
+            </small>
           </span>
           <span>
-            <strong>The case against</strong>
-            <small>Inspect contrary evidence and conditions that could kill it.</small>
+            <strong>Evidence you can follow</strong>
+            <small>
+              Open the source, date, context, and reasoning behind a statement.
+            </small>
           </span>
           <span>
-            <strong>A testable next step</strong>
-            <small>Learn before committing inventory, debt, or hiring.</small>
+            <strong>Open ends left open</strong>
+            <small>
+              See disagreement, uncertainty, and what would change the answer.
+            </small>
           </span>
         </div>
       </section>
 
       <section className="case-anatomy" id="product" aria-labelledby="product-title">
         <header>
-          <p className="section-index">The product</p>
-          <h2 id="product-title">One decision. The whole case around it.</h2>
+          <p className="section-index">What you will receive</p>
+          <h2 id="product-title">A case you can understand—and take apart.</h2>
           <p>
-            Every Opportunity Case is bounded by a place, customer, time window,
-            proposition, and decision at stake. It connects what we can observe to what
-            must be true for the business to work—without disguising inference as fact.
+            Each case starts like a careful conversation: one question, the people and
+            place it concerns, what the world seems to show, and what must be true for
+            the business to work. Read the clear account, or follow any important idea
+            all the way to its evidence, history, arithmetic, and limits.
           </p>
         </header>
         <div className="case-anatomy-grid">
@@ -106,8 +110,8 @@ export function OpeningChapter(): ReactElement {
         aria-labelledby="method-title"
       >
         <header>
-          <p className="section-index">How a case is built</p>
-          <h2 id="method-title">A promising idea must survive the evidence.</h2>
+          <p className="section-index">How we investigate</p>
+          <h2 id="method-title">Good questions are made, not found.</h2>
         </header>
         <ol>
           {researchSteps.map(([stage, question, explanation], stageIndex) => (

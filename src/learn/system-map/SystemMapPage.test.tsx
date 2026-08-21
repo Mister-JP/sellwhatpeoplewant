@@ -15,16 +15,16 @@ describe('SystemMapPage', () => {
 
     expect(
       screen.getByRole('heading', {
-        name: /interesting idea to inspectable decision/i,
+        name: /something you notice to a question you can test/i,
       }),
     ).toBeInTheDocument();
 
     await user.click(screen.getByRole('tab', { name: 'Correction' }));
 
     expect(
-      screen.getByRole('heading', { name: /discussion improves a claim/i }),
+      screen.getByRole('heading', { name: /challenge should help everyone/i }),
     ).toBeInTheDocument();
-    expect(screen.getByText('Visible revision')).toBeInTheDocument();
+    expect(screen.getByText('Revise without erasing')).toBeInTheDocument();
     expect(screen.queryByRole('button', { name: /save/i })).not.toBeInTheDocument();
     expect(screen.queryByRole('button', { name: /download/i })).not.toBeInTheDocument();
     expect(screen.queryByRole('button', { name: /edit/i })).not.toBeInTheDocument();

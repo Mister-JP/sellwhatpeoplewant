@@ -18,10 +18,10 @@ export function SiteHeader(): ReactElement {
         </span>
       </a>
       <nav aria-label="Primary navigation">
-        <a href="/#product">Opportunity cases</a>
-        <a href="/#how-it-works">How we research</a>
-        <a href="/#research-standard">Research standard</a>
-        <a href="/explore">Cases · soon</a>
+        <a href="/#product">What we publish</a>
+        <a href="/methodology">How we know</a>
+        <a href="/#research-standard">What we promise</a>
+        <a href="/explore">First case · in research</a>
       </nav>
     </header>
   );

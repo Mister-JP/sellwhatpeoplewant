@@ -8,8 +8,8 @@ export function HomePage(): ReactElement {
     <main id="main-content">
       <OpeningChapter />
       <section className="editorial-break" aria-label="From idea to inspectable case">
-        <p>An idea becomes useful when its assumptions become visible.</p>
-        <p>A case earns trust when the world can correct it.</p>
+        <p>A clear explanation should not ask you to trust the person explaining.</p>
+        <p>It should show you how to check—and how to keep going.</p>
       </section>
       <SharedStateChapter />
     </main>

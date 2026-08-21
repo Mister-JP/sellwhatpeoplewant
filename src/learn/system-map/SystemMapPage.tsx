@@ -1,7 +1,7 @@
 /**
- * Presents the opportunity-research method as a short Learn article rather than
- * an application dashboard. Tabs let a reader inspect one safeguard at a time
- * while the authored JSON remains useful to humans, agents, and search engines.
+ * Presents the research-and-learning path as a short Learn article rather than an
+ * application dashboard. Tabs let a reader follow one part of the reasoning at a
+ * time while the authored JSON remains useful to people, agents, and search engines.
  */
 import { useState, type ReactElement } from 'react';
 import { currentSystemMap } from './currentSystemMap';
@@ -24,13 +24,13 @@ export function SystemMapPage(): ReactElement {
   return (
     <main className="learn-page" id="main-content">
       <header className="learn-introduction">
-        <p className="eyebrow">Learn · system map</p>
-        <h1>The case before the platform.</h1>
+        <p className="eyebrow">Learn · see how it is built</p>
+        <h1>The question before the system.</h1>
         <p className="learn-deck">{currentSystemMap.principle}</p>
         <p>
           This map leaves out cloud vendors, databases, permissions, and implementation
-          details. It shows the smallest research loop the first publication must make
-          credible.
+          details. It shows what a reader should be able to understand and check in the
+          first real publication.
         </p>
       </header>
 
@@ -59,9 +59,10 @@ export function SystemMapPage(): ReactElement {
       <aside className="agent-note">
         <p className="eyebrow">For research agents</p>
         <p>
-          Help search, extract, calculate, translate, monitor, and compare. Preserve
-          claim types, provenance, uncertainty, and local limits. Humans remain the
-          primary audience and final judges of what to do.
+          Help search, extract, calculate, translate, monitor, and compare. Keep each
+          important statement connected to its source. Keep assumptions, uncertainty,
+          disagreements, and local limits visible. Explain the result to people; do not
+          ask them to trust an answer simply because an agent produced it.
         </p>
       </aside>
     </main>

@@ -103,6 +103,9 @@ a:focus-visible {
   gap: clamp(1rem, 2vw, 1.8rem);
 }
 .site-header nav a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
   font-size: 0.65rem;
   font-weight: 750;
   letter-spacing: 0.075em;
@@ -481,22 +484,6 @@ a:focus-visible {
   font-size: 0.75rem;
   line-height: 1.55;
 }
-.epistemic-boundary {
-  grid-column: 2;
-  margin: 1rem 0 0 12%;
-  padding: 1.4rem 0 0;
-  border-top: 3px solid var(--coral);
-}
-.epistemic-boundary strong {
-  color: #ffd5b8;
-  font-size: clamp(1.2rem, 2vw, 1.7rem);
-}
-.epistemic-boundary p {
-  color: #b9d4d4;
-  font-size: 0.78rem;
-  line-height: 1.7;
-}
-
 .public-readers {
   display: grid;
   grid-template-columns: 1.1fr 0.6fr 0.5fr;
@@ -672,10 +659,6 @@ a:focus-visible {
   .public-data header {
     position: static;
   }
-  .epistemic-boundary {
-    grid-column: 1;
-    margin-left: 20%;
-  }
   .privacy-boundary > p:last-child {
     max-width: 620px;
   }
@@ -732,9 +715,6 @@ a:focus-visible {
     margin-top: 2rem;
   }
   .metric-current div {
-    margin-left: 0;
-  }
-  .epistemic-boundary {
     margin-left: 0;
   }
   .north-star-statement > div {

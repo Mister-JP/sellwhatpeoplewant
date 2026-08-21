@@ -7,12 +7,17 @@ import { describe, expect, it } from 'vitest';
 import { ExplorePage } from './ExplorePage';
 
 describe('ExplorePage', () => {
-  it('states that the first Opportunity Case is still in research', () => {
+  it('states the human-understanding threshold for publishing the first case', () => {
     render(<ExplorePage />);
 
     expect(
-      screen.getByRole('heading', { name: /case library is in research/i }),
+      screen.getByRole('heading', { name: /still doing the work/i }),
     ).toBeInTheDocument();
-    expect(screen.getByText(/trace the material claims/i)).toBeInTheDocument();
+    expect(screen.getByText(/no special training/i)).toBeInTheDocument();
+    expect(screen.getByText(/strongest disagreement/i)).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /how we know/i })).toHaveAttribute(
+      'href',
+      '/methodology',
+    );
   });
 });
